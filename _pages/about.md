@@ -114,23 +114,65 @@ Yongtao Ma (supervisor), **Hankai Liu**, Yunlei Zhang *et al.*
 - *2024.08*, mmWave Radar-based Multi-person Tracking and Identification, HHME 2024
 
 # 👨‍🏫 Inventive patent
-- *已授权*, 一种基于飞行记录仪的太阳能发电系统
-作者：刘岩松; 龙岩; 李景奎; **张宁**; 华悦杉; 张迪
-<details class="lake-collapse"><summary id="u8cde2b31"><span class="ne-text">摘要</span></summary><p id="u86efc444" class="ne-p"><span class="ne-text">本实用新型公开了一种基于记录飞机飞行姿态参数和驾驶舱语音工作状态的飞行记录仪(FDR、CVR,俗称“黑匣子”)的太阳能发电系统,太阳能薄膜电池在不改变黑匣子原本形状的前提下,在飞行数据记录器上面加装砷化镓太阳能薄膜发电模组,砷化镓太阳能薄膜对热不敏感,在较高的温度下仍然可以正常的工作不会影响其转换率,转化效率高,而且材料无毒无害对于环境没有任何影响。</span></p></details>
+- 1. [4th], *已授权*, 一种基于飞行记录仪的太阳能发电系统. 刘岩松, 龙岩, 李景奎, 等
 
-- *已授权*, 太阳翼二次展开重力卸载试验装置
-作者：沈迎咏; 高晶波; **张宁**; 檀世昱; 华运韬; 马文来; 梁磊
-<details class="lake-collapse"><summary id="u8e613a48"><span class="ne-text">摘要</span></summary><p id="u2668cbaa" class="ne-p"><span class="ne-text">太阳翼二次展开重力卸载试验装置,解决了现有导轨吊挂式太阳翼展开重力卸载装置仅能进行一次展开的问题,采用卷扬机磁悬浮滑车代替传统配重块实现了太阳翼的重力卸载,属于航天器空间展开技术领域。本发明包括主框承力框架、纵向支撑、横向支撑和吊挂单元；主框承力框架位于太阳翼上方；纵向支撑固定在主框承力框架上,横向支撑与主框承力框架之间用滑动副连接,可沿纵向支撑的长度方向直线移动,横向支撑与纵向支撑垂直；轭架、主面板的吊挂单元分布设置在纵向支撑上,可沿纵向支撑的长度方向移动,侧面板的吊挂单元分布设置在横向支撑上,且能在横向支撑上沿横向支撑的长度方向移动。本发明能够完成太阳翼系统的二次展开过程。</span></p></details>
+- 2. [3rd], *已授权*, 太阳翼二次展开重力卸载试验装置. 沈迎咏, 高晶波, **张宁**, 等
 
-# 🏆 Honors and Awards
-- *2025.05* Huawei Scholarship
-- *2024.07* Graduated from the 1st National Training for College Cybersecurity Teachers
-- *2023.12* Best Paper Award of IEEE Cybermatics Congress 2023
-- *2021.01* Outstanding Graduates of Tianjin University
-- *2020.08* OnMicro Scholarship
+- 3. [3rd], *实质审查*, 火星表面三维地形重构方法. 马文来, 孟繁睿, **张宁**, 等
+
+- 4. [3rd], *实质审查*, 火星表面小石块的目标检测方法. 赵阳, 杨旭辉, **张宁**, 等
+
+- 5. [1st], *实质审查*, 多功能一体化静刚度测试系统. **张宁**, 胡操, 马文来, 等
+
+- 6. [2nd], *已授权*, 基于宿主卫星与寄宿载荷分离、锁定的机械接口系统及方法. 彭思淇, **张宁**, 王震南, 等
+
+- 7. [3rd], *已授权*, 监测宿主卫星与寄宿载荷分离、锁定姿态的试验装置. 孟繁睿, 杨旭辉, **张宁**, 等
+
+- 8. [7th], *已授权*, 基于阿基米德螺旋线原理的可变刚度柔顺抓取装置. 李茂国, 魏承, 李诗宇, 等
+
+- 9. [7th], *已授权*, 四足轮腿复合式机器人腿部折展伸缩变形机构. 揭诗怡, 魏承, 周峻宇, 等
+
+- 10. [3rd], *已授权*, 防止百米级环柱天线振动的伸缩机构. 李诗宇, 李茂国, **张宁**, 等
+
+- 11. [2nd], *已授权*, 一种高精度四体动力学模型下的航天器轨道设计方法. 刘文豪, **张宁**, 李辰辉, 等
+
+- 12. [5th], *已授权*, 一种用于月球车机械臂末端的模块化自动快拆接口. 刘博屹, 魏承, 李茂国, 等
+
+- 13. [5th], *实质审查*, 基于转盘式升降台的双舱门月面智能工具箱. 揭诗怡, 魏承, 李茂国, 等
+
+- 14. [4th], *已授权*, 基于机械臂快拆接口的小型通用智能化月面基建工程系统设计. 李茂国, 魏承, 孙晟昕, 等
+
+- 15. [3rd], *实质审查*, 多自由度电磁弹射分离与吸附一体化空间接口装置. 白文博, 李茂国, **张宁**, 等
+
+- 16. [4th], *实质审查*, 大惯量异形旋转载荷卫星动静不平衡多目标优化配平方法. 魏承, 马文来, 曹喜滨, 等
+
+- 17. [1st], *实质审查*, 在轨更换装置. **张宁**, 王培基, 杨旭辉, 等
+
+- 18. [4th], *实质审查*, 面向地外天体安全采样的蒸馏集成学习土壤参数反演方法. 孙晟昕, 李茂国, 刘慧金, 等
+
+- 19. [5th], *实质审查*, 基于近端策略优化算法的固定基座机械臂点对点轨迹优化方法. 孙晟昕, 钟雨洁, 张剑桥, 等
+
+- 20. [6th], *实质审查*, 基于组相对策略优化算法的空间机械臂轨迹优化方法. 孙晟昕, 钟雨洁, 李建融, 等
+
+- 21. [12th], *实质审查*, 小提琴演奏机器人自适应运弓控制方法. 李建融, 魏承, 乔淑楠, 等
+
+- 22. [5th], *已申请*, 一种基于参数重组与可识别性约束的轮-土模型小样本分阶段贝叶斯反演方法.
+
+- 23. [2nd], *已申请*, 面向空间太阳能卫星的能量最优姿态控制方法.
+
+- 24. [5th], *已申请*, 一种基于子模信息增益模型视角的手眼标定位姿阵列生成方法.
+
+- 25. [5th], *已申请*, 含间隙铰链柔性多体系统的热—机耦合多尺度动力学求解方法.
+
+- 26. [5th], *已申请*, 含间隙铰链变构型航天器天线的热-力耦合动力学建模方法.
+
+- 27. [13th], *已申请*, 一种建筑被动遮阳快速能耗舒适度联合评估方法.
+
+
+
+
 
 # 🎓 Experiences
-- *2025.07 - Now*, Lecturer, College of Cryptology and Cyber Science, Nankai University
-- *2021.09 - 2025.06*, Ph.D., Tianjin University, Computer Science and Technology
-- *2018.09 - 2021.01*, M.S., Tianjin University, Electronic and Communication Engineering
-- *2014.09 - 2018.06*, B.E., Tianjin University, Internet of Things Engineering
+- *2023.09 - Now*, Ph.D., Harbin Institute of Technology, Aeronautical and Astronautical Science and Technology
+- *2021.09 - 2023.06*, M.S., Harbin Institute of Technology, Aeronautical and Astronautical Science and Technology
+- *2016.09 - 2020.06*, B.E., Shenyang Aerospace University, Aircraft Quality and Reliability

@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Ning Zhang (张宁)"
   avatar           : "images/512x512.png"
-  bio              : "Harbin Institute of Technology"
+  bio              : # "none"
   location         : "Harbin, Heilongjiang, China"
   employer         : "Harbin Institute of Technology"
   pubmed           : 
