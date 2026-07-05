@@ -33,11 +33,11 @@ My current research interests include **Cryptographic Hardware Acceleration** an
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IMWUT 2023</div><img src='images/pmtrack.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[PmTrack: Enabling Personalized mmWave-based Human Tracking](https://dl.acm.org/doi/10.1145/3631433)
+[Neural Network Predictive Control for Planetary Surface Exploration Robots Considering Dynamic Conformational Stability](https://doi.org/10.1115/1.4069048)
 
-**Hankai Liu**, Xiulong Liu, Xin Xie *et al.*
+**Ning Zhang**, Maoguo Li, Hutao Cui, Wenlai Ma, Yang Zhao
 
-- Introducing IMUs as identity indicators into mmWave sensing systems for lightweight and accurate personalized multi-person tracking.
+- In this study, an online predictive control strategy based on the backpropagation neural network (BPNN) is proposed for planetary surface exploration robots with a high manipulator-to-platform mass ratio, with the objective of achieving dynamic stability control. First, a dynamic model of the planetary surface exploration robot is established, addressing the strong coupling effects between the manipulator and the mobile platform. Second, an online adaptive stability strategy based on BPNN is proposed. An adaptive sliding mode control method is applied to adjust the joint angles in real time, dynamically regulating the zero moment point (ZMP) to remain within the support polygon. Finally, simulation and experiment are conducted to validate the proposed method. The experimental results show that the system maintains minimal deviations at low speeds, with the X direction deviation ranging from 7 to 11 mm and the Y direction deviation within ±2 mm. At medium and high speeds, the system observes slight increases in ZMP deviations but effectively maintains dynamic balance. The experimental results closely align with the simulations, confirming the accuracy and reliability of the proposed method. Coordination control between the manipulator and the mobile platform significantly enhances stability and adaptability in rugged terrain, providing crucial technological support for future planetary exploration missions.
 
 </div>
 </div>
@@ -113,8 +113,8 @@ Yongtao Ma (supervisor), **Hankai Liu**, Yunlei Zhang *et al.*
 - *2024.10*, PmTrack: Enabling Personalized mmWave-based Human Tracking, UbiComp 2024
 - *2024.08*, mmWave Radar-based Multi-person Tracking and Identification, HHME 2024
 
-# 👨‍🏫 Teaching
-- *COSC0069*, Computer Hardware Fundamentals
+# 👨‍🏫 Inventive patent
+- *已授权*, 一种基于飞行记录仪的太阳能发电系统
 
 # 🏆 Honors and Awards
 - *2025.05* Huawei Scholarship
