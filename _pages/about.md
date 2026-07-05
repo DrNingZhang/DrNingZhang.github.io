@@ -22,96 +22,97 @@ I am a Lecturer at the [College of Cryptology and Cyber Science](https://cyber.n
 
 My current research interests include **Cryptographic Hardware Acceleration** and **Radio-Frequency Privacy Computing**. I have published over 20 papers at the top-tier international conferences and journals, including ACM IMWUT, IEEE TMC, IEEE TWC, IEEE TAP, etc. I hold several academic positions such as TPC Member of TrustCom 2025 and Workshop Chair of ICA3PP 2023.
 
-📢📢 <span style="color:red;">Our group is seeking research assistants to work on multiple projects related to **Post-quantum Cryptography Chip** and **Encrypted mmWave Sensing**. Drop me an email if you are interested.
 
-# 🔥 News
-- *2025.04*: Our paper entitled "MHTrack: mmWave-based Mobile Hand Tracking" was accepted by IEEE TMC.
-- *2025.04*: Our paper entitled "Multi-user Behavioral Privacy Filtering for mmWave Radar Sensing" was accepted by IEEE TMC.
+# ✒️ Journal paper
 
-# 📘 Selected Publications 
-## 🏃‍♀️ mmWave Sensing
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IMWUT 2023</div><img src='images/pmtrack.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+- [Neural Network Predictive Control for Planetary Surface Exploration Robots Considering Dynamic Conformational Stability](https://doi.org/10.1115/1.4069048)
+  - Author: **Ning Zhang**, Maoguo Li, Hutao Cui, Wenlai Ma, Yang Zhao
+  - Journal: Journal of Mechanisms and Robotics (JCR Q1)
 
-[Neural Network Predictive Control for Planetary Surface Exploration Robots Considering Dynamic Conformational Stability](https://doi.org/10.1115/1.4069048)
+- [Design, Analysis, and Experimental Research of Flexible Multi-Constraint Gripper for Nest Frames](https://doi.org/10.1115/1.4069074)
+  - Author: Maoguo Li, **Ning Zhang**, Yan Xing, Boyi Liu, Wenyuan Su, Shiyu Li, Shenxin Sun
+  - Journal: Journal of Mechanical Design (JCR Q1)
 
-**Ning Zhang**, Maoguo Li, Hutao Cui, Wenlai Ma, Yang Zhao
+- [Efficient Uncertainty Quantification for Satellite Antenna Pointing: A GSA-PEM Framework Integrating Multi-Source Disturbances](https://doi.org/10.3390/aerospace12080720)
+  - Author: Shiyu Tan, **Ning Zhang**, Yingyong Shen, Cong Wang, Jingbo Gao
+  - Journal: Aerospace (JCR Q2)
 
-- In this study, an online predictive control strategy based on the backpropagation neural network (BPNN) is proposed for planetary surface exploration robots with a high manipulator-to-platform mass ratio, with the objective of achieving dynamic stability control. First, a dynamic model of the planetary surface exploration robot is established, addressing the strong coupling effects between the manipulator and the mobile platform. Second, an online adaptive stability strategy based on BPNN is proposed. An adaptive sliding mode control method is applied to adjust the joint angles in real time, dynamically regulating the zero moment point (ZMP) to remain within the support polygon. Finally, simulation and experiment are conducted to validate the proposed method. The experimental results show that the system maintains minimal deviations at low speeds, with the X direction deviation ranging from 7 to 11 mm and the Y direction deviation within ±2 mm. At medium and high speeds, the system observes slight increases in ZMP deviations but effectively maintains dynamic balance. The experimental results closely align with the simulations, confirming the accuracy and reliability of the proposed method. Coordination control between the manipulator and the mobile platform significantly enhances stability and adaptability in rugged terrain, providing crucial technological support for future planetary exploration missions.
+- [Adaptive Multiresolution Collocation-Based Sequential Convex Programming for Fuel-Optimal Low-Thrust Transfer Orbit Guidance](https://doi.org/10.3390/app16094171)
+  - Author: Changzheng Qian, **Ning Zhang**, Hutao Cui, Shengxin Sun, Wenlai Ma, Jianqiao Zhang
+  - Journal: Applied Sciences (JCR Q2)
 
-</div>
-</div>
+- [A Bidirectional Initialization Framework for Multi-Phase Indirect Shooting in Time-Optimal Low-Thrust GTO-to-DRO Transfers](https://doi.org/10.3390/aerospace13050429)
+  - Author: Changzheng Qian, **Ning Zhang**, Hutao Cui, Shengxin Sun, Wenlai Ma
+  - Journal: Aerospace (JCR Q2)
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TMC 2025</div><img src='images/mhtrack.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+- [An Adaptive Dissipation–Precision Coordinated Multi-Scale Implicit Integration Algorithm for Thermo-Mechanical Coupled Dynamics of Flexible Multibody Systems with Temperature-Dependent Clearance Joints](https://doi.org/10.3390/app16115461)
+  - Author: Yuntao Hua, **Ning Zhang**, Changzheng Qian, Shengxin Sun, Hutao Cui, Wenlai Ma
+  - Journal: Applied Sciences (JCR Q2)
 
-[MHTrack: mmWave-based Mobile Hand Tracking](https://ieeexplore.ieee.org/document/10962443)
+- [Dynamic Modeling and Thermo-Mechanical Coupling Analysis of Variable-Geometry Spacecraft Antenna with Clearance Hinges Under Extreme Thermal Environment](https://doi.org/10.3390/aerospace13060529)
+  - Author: Yuntao Hua, **Ning Zhang**, Yingyong Shen, Shengxin Sun, Hutao Cui, Wenlai Ma
+  - Journal: Aerospace (JCR Q2)
 
-Xiulong Liu (supervisor), **Hankai Liu\***, Yantao Han *et al.*
+- [Separated vortex ring evolution governs progressive stabilization of takeoff dandelion seeds](https://doi.org/10.1016/j.cja.2026.104341)
+  - Author: Jinming Yao, Yang Zhao, Huibo Zhang, Jianan Xu, Chao Tang, **Ning Zhang**
+  - Journal: Chinese Journal of Aeronautics (JCR Q1)
 
-- First demonstration of mmWave-based hand trajectory tracking and hand-painted pattern recognition during user movement.
+- [Enhancing the dynamic response of Martian quadrotor UAVs: Planetary gearbox integration, system modeling, and triple-loop cascade control](https://doi.org/10.1016/j.actaastro.2025.11.038)
+  - Author: Hongming Li, Yang Zhao, Wenlai Ma, Shengyu Lin, **Ning Zhang**
+  - Journal: Acta Astronautica (JCR Q1)
 
-</div>
-</div>
 
-## 🛡️ Sensing Security
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TMC 2025</div><img src='images/mufilter.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
 
-[Multi-user Behavioral Privacy Filtering for mmWave Radar Sensing](https://ieeexplore.ieee.org/document/10946842)
 
-Xiulong Liu (supervisor), **Hankai Liu**, Jiaqi Zhang *et al.*
 
-- Resolving cross-interference in signal perturbations to satisfy differentiated privacy protection preferences of multiple users.
 
-</div>
-</div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE Commun. Mag. 2023</div><img src='images/mmfilter.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+# 📃 Conference paper
+- [Effects of different deployment strategies on the dynamic characteristics of bidirectional solar array](https://doi.org/10.1088/1742-6596/2746/1/012037)
+  - Author: Yingyong Shen, Cong Wang, Shiyu Tan, **Ning Zhang**, Jingbo Gao
+  - Conference: The 14th Asia Conference on Mechanical and Aerospace Engineering (ACMAE 2023)
 
-[Application-Oriented Privacy Filter for mmWave Radar](https://ieeexplore.ieee.org/document/10268839)
+- [Static Stiffness Testing and Validation of a Large Hoop-Column Deployable Antenna Based on Similarity Theory](https://doi.org/10.3233/ATDE250048)
+  - Author: Fanrui Meng, Xuhui Yang, **Ning Zhang**, Lei Liang, Jingbo Gao, Wenlai Ma, Jiang Zhou, Jiacong Yin, Fuxiang Dong, Chunyang Jiang
+  - Conference: The 15th Asia Conference on Mechanical and Aerospace Engineering (ACMAE 2024)
 
-**Hankai Liu**, Xiulong Liu, Xin Xie *et al.*
+- [Vision-Based Robotic Grasping Method for Nest Frame Based on Gen6D and AnyGrasp](https://doi.org/10.1109/ISCAIT64916.2025.11010279)
+  - Author: Maoguo Li, Zhenyu Zhang, Xiaoyan Zhang, Shiyu Li, **Ning Zhang**, Shengxin Sun
+  - Conference: 2025 4th International Symposium on Computer Applications and Information Technology (ISCAIT)
 
-- Implementing the pioneering signal-matrix perturbation approach to achieve personalized behavioral privacy protection in mmWave sensing.
+- [Prediction of shear strength of soil based on interpretable ensemble learning method with knowledge distillation](https://doi.org/10.1117/12.3067302)
+  - Author: Maoguo Li, Shiyu Li, **Ning Zhang**, Shengxin Sun
+  - Conference: 4th International Conference on Electronic Information Engineering and Data Processing (EIEDP 2025)
 
-</div>
-</div>
+- [Electro-Thermo-Mechanical Design and Development of a Reusable Spring-Actuated Separation Mechanism for ORUs](https://doi.org/10.1109/ISAES66870.2025.11274285)
+  - Author: Wenbo Bai, Xuhui Yang, **Ning Zhang**, Wenlai Ma, Peng Tian, Qiang Zhang, Xiaosong Zhang, Qiaodong Zhang
+  - Conference: 2025 4th International Symposium on Aerospace Engineering and Systems (ISAES)
 
-## 🤖 RF Mobile Localization
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IoTJ 2022</div><img src='images/resensing.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+- [High-Fidelity Multibody and Steady-State CFD Co-Simulation of Spring-Driven Separation Dynamics for Plate-Type Orbital Replacement Units](https://doi.org/10.1109/ISAES66870.2025.11274346)
+  - Author: Xuhui Yang, Wenbo Bai, **Ning Zhang**, Wenlai Ma, Haoyu Li, Peng Tian, Qiang Zhang, Ke Wang
+  - Conference: 2025 4th International Symposium on Aerospace Engineering and Systems (ISAES)
 
-[Toward Simultaneous Localization and Speed Measurement of Mobile Vehicles via RF-ELP](https://ieeexplore.ieee.org/document/9709594)
+- [Design of Transfer Trajectories between Earth-Moon L1 and L2 Libration Points in the Ephemeris Model](https://doi.org/10.1109/ICMTAE66890.2025.11427976)
+  - Author: Wenhao Liu, **Ning Zhang**, Wenlai Ma, Weiguang Liang, Ao Chen, Yangkang Pu
+  - Conference: 2025 5th International Conference on Mechatronics Technology and Aerospace Engineering (ICMTAE)
 
-**Hankai Liu**, Yongtao Ma, Xiulong Liu *et al.*
+- [Structure design of electromagnetic-driven separation ejection mechanism for on-orbit units](https://doi.org/10.1088/1742-6596/3240/1/012005)
+  - Author: Ziyi Xu, **Ning Zhang**, Wenbo Bai, Wenlai Ma, Yang Zhao
+  - Conference: 2026 International Conference on Aerospace, Intelligent Perception and Control (AIPC 2026)
 
-- First RFID-based simultaneous vehicle localization and speed measurement system via novel phase sampling strategy.
+- [Learning Soil-Adaptive Robotic Excavation via Diffusion Policy](https://doi.org/10.1109/FASTA70174.2026.11549281)
+  - Author: Zichun Ma, Jianqiao Zhang, Jianrong Li, **Ning Zhang**, Maoguo Li, Ziyi Xu, Shiyu Li, Shengxin Sun
+  - Conference: 2026 5th Conference on Fully Actuated System Theory and Applications (FASTA)
 
-</div>
-</div>
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TAP 2020</div><img src='images/moloc.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+- [Precision Trajectory Tracking Control for Space Manipulators in On-Orbit Assembly Considering Truss Flexibility and Dynamic Coupling](https://doi.org/10.1109/FASTA70174.2026.11548895)
+  - Author: Maoguo Li, Xianglong Kong, Jianrong Li, **Ning Zhang**, Jianqiao Zhang, Zichun Ma, Shiyu Li, Ziyi Xu, Shengxin Sun
+  - Conference: 2026 5th Conference on Fully Actuated System Theory and Applications (FASTA)
 
-[The Influence of the Nonideal Phase Offset on SAR-Based Localization in Passive UHF RFID](https://ieeexplore.ieee.org/document/9052482)
+- [Precision Force Control for a Flexible-Base Space Manipulator in Asteroid Surface Excavation Under Unknown Contact Forces](https://doi.org/10.1109/FASTA70174.2026.11549438)
+  - Author: Shiyu Li, Xianglong Kong, **Ning Zhang**, Jianqiao Zhang, Maoguo Li, Zichun Ma, Ziyi Xu, Shengxin Sun, Jianrong Li
+  - Conference: 2026 5th Conference on Fully Actuated System Theory and Applications (FASTA)
 
-Yongtao Ma (supervisor), **Hankai Liu**, Yunlei Zhang *et al.*
 
-- Enabling RFID mobile localization with high accuracy and low computational latency through phase unwrapping and nonlinear optimization.
-
-</div>
-</div>
-
-→ [Full List of Publications](https://www.researchgate.net/profile/Hankai-Liu/research)
-
-# 📋 Services
-- *2025.11*, TPC Member, TrustCom 2025
-- *2023.10*, Workshop Chair, ICA3PP 2023
-
-# 🎤 Invited Talks
-- *2024.10*, PmTrack: Enabling Personalized mmWave-based Human Tracking, UbiComp 2024
-- *2024.08*, mmWave Radar-based Multi-person Tracking and Identification, HHME 2024
 
 # 👨‍🏫 Inventive patent
 - 1. [4th], *已授权*, 一种基于飞行记录仪的太阳能发电系统. 刘岩松, 龙岩, 李景奎, 等
