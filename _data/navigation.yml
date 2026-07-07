@@ -3,23 +3,14 @@ main:
   - title: "About Me"
     url: "/#about-me"
 
-  - title: "News"
-    url: "/#-news"
+  - title: "Journal paper"
+    url: "/#journal-paper"
 
-  - title: "Selected Publications"
-    url: "/#-selected-publications"
+  - title: "Conference paper"
+    url: "/#conference-paper"
 
-  - title: "Services"
-    url: "/#-services"
-
-  - title: "Invited Talks"
-    url: "/#-invited-talks"
-
-  - title: "Teaching"
-    url: "/#-teaching"
-
-  - title: "Honors and Awards"
-    url: "/#-honors-and-awards"
+  - title: "Inventive patent"
+    url: "/#inventive-patent"
 
   - title: "Experiences"
-    url: "/#-experiences"
+    url: "/#experiences"

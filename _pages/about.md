@@ -23,6 +23,8 @@ I am a Lecturer at the [College of Cryptology and Cyber Science](https://cyber.n
 My current research interests include **Cryptographic Hardware Acceleration** and **Radio-Frequency Privacy Computing**. I have published over 20 papers at the top-tier international conferences and journals, including ACM IMWUT, IEEE TMC, IEEE TWC, IEEE TAP, etc. I hold several academic positions such as TPC Member of TrustCom 2025 and Workshop Chair of ICA3PP 2023.
 
 
+<span class='anchor' id='journal-paper'></span>
+
 # ✒️ Journal paper
 
 <style>
@@ -211,6 +213,8 @@ My current research interests include **Cryptographic Hardware Acceleration** an
 
 
 
+
+<span class='anchor' id='conference-paper'></span>
 
 # 📃 Conference paper
 
@@ -406,6 +410,8 @@ My current research interests include **Cryptographic Hardware Acceleration** an
 </div>
 
 
+
+<span class='anchor' id='inventive-patent'></span>
 
 # 👨‍🏫 Inventive patent
 
@@ -752,6 +758,8 @@ My current research interests include **Cryptographic Hardware Acceleration** an
 
 
 
+
+<span class='anchor' id='experiences'></span>
 
 # 🎓 Experiences
 - *2023.09 - Now*, Ph.D., Harbin Institute of Technology, Aeronautical and Astronautical Science and Technology
