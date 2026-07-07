@@ -112,6 +112,72 @@ My current research focuses on **dynamics and control of robots**, **specificall
   background: #e4eefb;
 }
 
+.journal-abstract {
+  margin-top: 0.85rem;
+  outline: none;
+}
+
+.journal-abstract-line {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  color: #7a8288;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 1.2;
+  cursor: default;
+}
+
+.journal-abstract-line::before,
+.journal-abstract-line::after {
+  content: "";
+  flex: 1;
+  border-top: 1px solid #d9e0e8;
+}
+
+.journal-abstract-line span {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.1rem 0.45rem;
+  border-radius: 4px;
+  background: #f8fafc;
+}
+
+.journal-abstract-body {
+  max-height: 0;
+  margin-top: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.24s ease, opacity 0.18s ease, margin-top 0.18s ease;
+}
+
+.journal-abstract-body p {
+  margin: 0;
+  padding: 0.7rem 0.85rem;
+  border-left: 3px solid #d7e4f5;
+  border-radius: 6px;
+  color: #4b5563;
+  background: #f8fafc;
+  font-size: 0.86rem;
+  line-height: 1.65;
+  text-align: justify;
+}
+
+.journal-abstract:hover .journal-abstract-body,
+.journal-abstract:focus-within .journal-abstract-body,
+.journal-abstract:focus .journal-abstract-body {
+  max-height: 22rem;
+  margin-top: 0.55rem;
+  opacity: 1;
+}
+
+.journal-abstract:hover .journal-abstract-line,
+.journal-abstract:focus-within .journal-abstract-line,
+.journal-abstract:focus .journal-abstract-line {
+  color: #174a8b;
+}
+
 @media (max-width: 700px) {
   .journal-item {
     grid-template-columns: 1fr;
@@ -132,6 +198,12 @@ My current research focuses on **dynamics and control of robots**, **specificall
       <h3 class="journal-title"><a href="https://doi.org/10.1115/1.4069048">Neural Network Predictive Control for Planetary Surface Exploration Robots Considering Dynamic Conformational Stability</a></h3>
       <div class="journal-authors"><strong>Ning Zhang</strong>, Maoguo Li, Hutao Cui, Wenlai Ma, Yang Zhao</div>
       <div class="journal-venue">Journal of Mechanisms and Robotics <span class="journal-tag journal-tag--q1">JCR Q1</span></div>
+      <div class="journal-abstract" tabindex="0">
+        <div class="journal-abstract-line"><span>Abstract</span></div>
+        <div class="journal-abstract-body">
+          <p>In this study, an online predictive control strategy based on the backpropagation neural network (BPNN) is proposed for planetary surface exploration robots with a high manipulator-to-platform mass ratio, with the objective of achieving dynamic stability control. First, a dynamic model of the planetary surface exploration robot is established, addressing the strong coupling effects between the manipulator and the mobile platform. Second, an online adaptive stability strategy based on BPNN is proposed. An adaptive sliding mode control method is applied to adjust the joint angles in real time, dynamically regulating the zero moment point (ZMP) to remain within the support polygon. Finally, simulation and experiment are conducted to validate the proposed method. The experimental results show that the system maintains minimal deviations at low speeds, with the X direction deviation ranging from 7 to 11 mm and the Y direction deviation within ±2 mm. At medium and high speeds, the system observes slight increases in ZMP deviations but effectively maintains dynamic balance. The experimental results closely align with the simulations, confirming the accuracy and reliability of the proposed method. Coordination control between the manipulator and the mobile platform significantly enhances stability and adaptability in rugged terrain, providing crucial technological support for future planetary exploration missions.</p>
+        </div>
+      </div>
     </div>
   </article>
 
