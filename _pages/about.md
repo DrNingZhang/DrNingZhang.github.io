@@ -25,41 +25,186 @@ My current research interests include **Cryptographic Hardware Acceleration** an
 
 # ✒️ Journal paper
 
-- [Neural Network Predictive Control for Planetary Surface Exploration Robots Considering Dynamic Conformational Stability](https://doi.org/10.1115/1.4069048)
-  - Author: **Ning Zhang**, Maoguo Li, Hutao Cui, Wenlai Ma, Yang Zhao
-  - Journal: Journal of Mechanisms and Robotics (JCR Q1)
+<style>
+.journal-list {
+  display: grid;
+  gap: 1.05rem;
+  margin: 1rem 0 2rem;
+}
 
-- [Design, Analysis, and Experimental Research of Flexible Multi-Constraint Gripper for Nest Frames](https://doi.org/10.1115/1.4069074)
-  - Author: Maoguo Li, **Ning Zhang**, Yan Xing, Boyi Liu, Wenyuan Su, Shiyu Li, Shenxin Sun
-  - Journal: Journal of Mechanical Design (JCR Q1)
+.journal-item {
+  display: grid;
+  grid-template-columns: 170px minmax(0, 1fr);
+  gap: 1.35rem;
+  align-items: center;
+  padding: 1rem 0;
+  border-bottom: 1px solid #e8ebef;
+}
 
-- [Efficient Uncertainty Quantification for Satellite Antenna Pointing: A GSA-PEM Framework Integrating Multi-Source Disturbances](https://doi.org/10.3390/aerospace12080720)
-  - Author: Shiyu Tan, **Ning Zhang**, Yingyong Shen, Cong Wang, Jingbo Gao
-  - Journal: Aerospace (JCR Q2)
+.journal-thumb {
+  width: 170px;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  background: #f8fafc;
+}
 
-- [Adaptive Multiresolution Collocation-Based Sequential Convex Programming for Fuel-Optimal Low-Thrust Transfer Orbit Guidance](https://doi.org/10.3390/app16094171)
-  - Author: Changzheng Qian, **Ning Zhang**, Hutao Cui, Shengxin Sun, Wenlai Ma, Jianqiao Zhang
-  - Journal: Applied Sciences (JCR Q2)
+.journal-thumb img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
 
-- [A Bidirectional Initialization Framework for Multi-Phase Indirect Shooting in Time-Optimal Low-Thrust GTO-to-DRO Transfers](https://doi.org/10.3390/aerospace13050429)
-  - Author: Changzheng Qian, **Ning Zhang**, Hutao Cui, Shengxin Sun, Wenlai Ma
-  - Journal: Aerospace (JCR Q2)
+.journal-title {
+  margin: 0 0 0.45rem;
+  color: #174a8b;
+  font-size: 1.02rem;
+  font-weight: 700;
+  line-height: 1.45;
+}
 
-- [An Adaptive Dissipation–Precision Coordinated Multi-Scale Implicit Integration Algorithm for Thermo-Mechanical Coupled Dynamics of Flexible Multibody Systems with Temperature-Dependent Clearance Joints](https://doi.org/10.3390/app16115461)
-  - Author: Yuntao Hua, **Ning Zhang**, Changzheng Qian, Shengxin Sun, Hutao Cui, Wenlai Ma
-  - Journal: Applied Sciences (JCR Q2)
+.journal-title a {
+  color: inherit;
+  text-decoration: none;
+}
 
-- [Dynamic Modeling and Thermo-Mechanical Coupling Analysis of Variable-Geometry Spacecraft Antenna with Clearance Hinges Under Extreme Thermal Environment](https://doi.org/10.3390/aerospace13060529)
-  - Author: Yuntao Hua, **Ning Zhang**, Yingyong Shen, Shengxin Sun, Hutao Cui, Wenlai Ma
-  - Journal: Aerospace (JCR Q2)
+.journal-title a:hover {
+  color: #00369f;
+  text-decoration: underline;
+}
 
-- [Separated vortex ring evolution governs progressive stabilization of takeoff dandelion seeds](https://doi.org/10.1016/j.cja.2026.104341)
-  - Author: Jinming Yao, Yang Zhao, Huibo Zhang, Jianan Xu, Chao Tang, **Ning Zhang**
-  - Journal: Chinese Journal of Aeronautics (JCR Q1)
+.journal-authors,
+.journal-venue {
+  color: #58626f;
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
 
-- [Enhancing the dynamic response of Martian quadrotor UAVs: Planetary gearbox integration, system modeling, and triple-loop cascade control](https://doi.org/10.1016/j.actaastro.2025.11.038)
-  - Author: Hongming Li, Yang Zhao, Wenlai Ma, Shengyu Lin, **Ning Zhang**
-  - Journal: Acta Astronautica (JCR Q1)
+.journal-authors {
+  margin-bottom: 0.3rem;
+}
+
+.journal-tag {
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.35rem;
+  margin-left: 0.35rem;
+  padding: 0.1rem 0.45rem;
+  border-radius: 4px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.journal-tag--q1 {
+  color: #0f5132;
+  background: #dff3e8;
+}
+
+.journal-tag--q2 {
+  color: #284b80;
+  background: #e4eefb;
+}
+
+@media (max-width: 700px) {
+  .journal-item {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+
+  .journal-thumb {
+    width: 100%;
+    max-width: 320px;
+  }
+}
+</style>
+
+<div class="journal-list">
+  <article class="journal-item">
+    <div class="journal-thumb"><img src="images/Journal%20paper/Journal%20paper1.png" alt="Neural Network Predictive Control"></div>
+    <div>
+      <h3 class="journal-title"><a href="https://doi.org/10.1115/1.4069048">Neural Network Predictive Control for Planetary Surface Exploration Robots Considering Dynamic Conformational Stability</a></h3>
+      <div class="journal-authors"><strong>Ning Zhang</strong>, Maoguo Li, Hutao Cui, Wenlai Ma, Yang Zhao</div>
+      <div class="journal-venue">Journal of Mechanisms and Robotics <span class="journal-tag journal-tag--q1">JCR Q1</span></div>
+    </div>
+  </article>
+
+  <article class="journal-item">
+    <div class="journal-thumb"><img src="images/Journal%20paper/Journal%20paper2.png" alt="Flexible Multi-Constraint Gripper for Nest Frames"></div>
+    <div>
+      <h3 class="journal-title"><a href="https://doi.org/10.1115/1.4069074">Design, Analysis, and Experimental Research of Flexible Multi-Constraint Gripper for Nest Frames</a></h3>
+      <div class="journal-authors">Maoguo Li, <strong>Ning Zhang</strong>, Yan Xing, Boyi Liu, Wenyuan Su, Shiyu Li, Shenxin Sun</div>
+      <div class="journal-venue">Journal of Mechanical Design <span class="journal-tag journal-tag--q1">JCR Q1</span></div>
+    </div>
+  </article>
+
+  <article class="journal-item">
+    <div class="journal-thumb"><img src="images/Journal%20paper/Journal%20paper3.png" alt="Satellite Antenna Pointing Uncertainty Quantification"></div>
+    <div>
+      <h3 class="journal-title"><a href="https://doi.org/10.3390/aerospace12080720">Efficient Uncertainty Quantification for Satellite Antenna Pointing: A GSA-PEM Framework Integrating Multi-Source Disturbances</a></h3>
+      <div class="journal-authors">Shiyu Tan, <strong>Ning Zhang</strong>, Yingyong Shen, Cong Wang, Jingbo Gao</div>
+      <div class="journal-venue">Aerospace <span class="journal-tag journal-tag--q2">JCR Q2</span></div>
+    </div>
+  </article>
+
+  <article class="journal-item">
+    <div class="journal-thumb"><img src="images/Journal%20paper/Journal%20paper4.png" alt="Low-Thrust Transfer Orbit Guidance"></div>
+    <div>
+      <h3 class="journal-title"><a href="https://doi.org/10.3390/app16094171">Adaptive Multiresolution Collocation-Based Sequential Convex Programming for Fuel-Optimal Low-Thrust Transfer Orbit Guidance</a></h3>
+      <div class="journal-authors">Changzheng Qian, <strong>Ning Zhang</strong>, Hutao Cui, Shengxin Sun, Wenlai Ma, Jianqiao Zhang</div>
+      <div class="journal-venue">Applied Sciences <span class="journal-tag journal-tag--q2">JCR Q2</span></div>
+    </div>
+  </article>
+
+  <article class="journal-item">
+    <div class="journal-thumb"><img src="images/Journal%20paper/Journal%20paper5.png" alt="Multi-Phase Indirect Shooting"></div>
+    <div>
+      <h3 class="journal-title"><a href="https://doi.org/10.3390/aerospace13050429">A Bidirectional Initialization Framework for Multi-Phase Indirect Shooting in Time-Optimal Low-Thrust GTO-to-DRO Transfers</a></h3>
+      <div class="journal-authors">Changzheng Qian, <strong>Ning Zhang</strong>, Hutao Cui, Shengxin Sun, Wenlai Ma</div>
+      <div class="journal-venue">Aerospace <span class="journal-tag journal-tag--q2">JCR Q2</span></div>
+    </div>
+  </article>
+
+  <article class="journal-item">
+    <div class="journal-thumb"><img src="images/Journal%20paper/Journal%20paper6.png" alt="Thermo-Mechanical Coupled Dynamics"></div>
+    <div>
+      <h3 class="journal-title"><a href="https://doi.org/10.3390/app16115461">An Adaptive Dissipation–Precision Coordinated Multi-Scale Implicit Integration Algorithm for Thermo-Mechanical Coupled Dynamics of Flexible Multibody Systems with Temperature-Dependent Clearance Joints</a></h3>
+      <div class="journal-authors">Yuntao Hua, <strong>Ning Zhang</strong>, Changzheng Qian, Shengxin Sun, Hutao Cui, Wenlai Ma</div>
+      <div class="journal-venue">Applied Sciences <span class="journal-tag journal-tag--q2">JCR Q2</span></div>
+    </div>
+  </article>
+
+  <article class="journal-item">
+    <div class="journal-thumb"><img src="images/Journal%20paper/Journal%20paper7.png" alt="Variable-Geometry Spacecraft Antenna"></div>
+    <div>
+      <h3 class="journal-title"><a href="https://doi.org/10.3390/aerospace13060529">Dynamic Modeling and Thermo-Mechanical Coupling Analysis of Variable-Geometry Spacecraft Antenna with Clearance Hinges Under Extreme Thermal Environment</a></h3>
+      <div class="journal-authors">Yuntao Hua, <strong>Ning Zhang</strong>, Yingyong Shen, Shengxin Sun, Hutao Cui, Wenlai Ma</div>
+      <div class="journal-venue">Aerospace <span class="journal-tag journal-tag--q2">JCR Q2</span></div>
+    </div>
+  </article>
+
+  <article class="journal-item">
+    <div class="journal-thumb"><img src="images/Journal%20paper/Journal%20paper8.png" alt="Dandelion Seed Takeoff"></div>
+    <div>
+      <h3 class="journal-title"><a href="https://doi.org/10.1016/j.cja.2026.104341">Separated vortex ring evolution governs progressive stabilization of takeoff dandelion seeds</a></h3>
+      <div class="journal-authors">Jinming Yao, Yang Zhao, Huibo Zhang, Jianan Xu, Chao Tang, <strong>Ning Zhang</strong></div>
+      <div class="journal-venue">Chinese Journal of Aeronautics <span class="journal-tag journal-tag--q1">JCR Q1</span></div>
+    </div>
+  </article>
+
+  <article class="journal-item">
+    <div class="journal-thumb"><img src="images/Journal%20paper/Journal%20paper9.png" alt="Martian Quadrotor UAVs"></div>
+    <div>
+      <h3 class="journal-title"><a href="https://doi.org/10.1016/j.actaastro.2025.11.038">Enhancing the dynamic response of Martian quadrotor UAVs: Planetary gearbox integration, system modeling, and triple-loop cascade control</a></h3>
+      <div class="journal-authors">Hongming Li, Yang Zhao, Wenlai Ma, Shengyu Lin, <strong>Ning Zhang</strong></div>
+      <div class="journal-venue">Acta Astronautica <span class="journal-tag journal-tag--q1">JCR Q1</span></div>
+    </div>
+  </article>
+</div>
 
 
 
@@ -115,59 +260,346 @@ My current research interests include **Cryptographic Hardware Acceleration** an
 
 
 # 👨‍🏫 Inventive patent
-- 1. [4th], *已授权*, 一种基于飞行记录仪的太阳能发电系统. 刘岩松, 龙岩, 李景奎, 等
 
-- 2. [3rd], *已授权*, 太阳翼二次展开重力卸载试验装置. 沈迎咏, 高晶波, **张宁**, 等
+<style>
+.patent-list {
+  display: grid;
+  gap: 0.75rem;
+  margin: 1rem 0 2rem;
+}
 
-- 3. [3rd], *实质审查*, 火星表面三维地形重构方法. 马文来, 孟繁睿, **张宁**, 等
+.patent-item {
+  display: grid;
+  grid-template-columns: 3.25rem 1fr;
+  gap: 0.85rem;
+  padding: 0.85rem 0 0.9rem;
+  border-bottom: 1px solid #e8ebef;
+}
 
-- 4. [3rd], *实质审查*, 火星表面小石块的目标检测方法. 赵阳, 杨旭辉, **张宁**, 等
+.patent-no {
+  color: #5b6570;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 1.8;
+}
 
-- 5. [1st], *实质审查*, 多功能一体化静刚度测试系统. **张宁**, 胡操, 马文来, 等
+.patent-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 0.35rem;
+}
 
-- 6. [2nd], *已授权*, 基于宿主卫星与寄宿载荷分离、锁定的机械接口系统及方法. 彭思淇, **张宁**, 王震南, 等
+.patent-rank,
+.patent-status {
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.35rem;
+  padding: 0.1rem 0.45rem;
+  border-radius: 4px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  line-height: 1.2;
+  white-space: nowrap;
+}
 
-- 7. [3rd], *已授权*, 监测宿主卫星与寄宿载荷分离、锁定姿态的试验装置. 孟繁睿, 杨旭辉, **张宁**, 等
+.patent-rank {
+  color: #334155;
+  background: #f1f5f9;
+}
 
-- 8. [7th], *已授权*, 基于阿基米德螺旋线原理的可变刚度柔顺抓取装置. 李茂国, 魏承, 李诗宇, 等
+.patent-status--granted {
+  color: #0f5132;
+  background: #dff3e8;
+}
 
-- 9. [7th], *已授权*, 四足轮腿复合式机器人腿部折展伸缩变形机构. 揭诗怡, 魏承, 周峻宇, 等
+.patent-status--review {
+  color: #7a4d00;
+  background: #fff1cf;
+}
 
-- 10. [3rd], *已授权*, 防止百米级环柱天线振动的伸缩机构. 李诗宇, 李茂国, **张宁**, 等
+.patent-status--filed {
+  color: #284b80;
+  background: #e4eefb;
+}
 
-- 11. [2nd], *已授权*, 一种高精度四体动力学模型下的航天器轨道设计方法. 刘文豪, **张宁**, 李辰辉, 等
+.patent-title {
+  color: #1f2933;
+  font-weight: 650;
+  line-height: 1.55;
+}
 
-- 12. [5th], *已授权*, 一种用于月球车机械臂末端的模块化自动快拆接口. 刘博屹, 魏承, 李茂国, 等
+.patent-authors {
+  color: #58626f;
+  font-size: 0.88rem;
+  line-height: 1.55;
+  margin-top: 0.2rem;
+}
 
-- 13. [5th], *实质审查*, 基于转盘式升降台的双舱门月面智能工具箱. 揭诗怡, 魏承, 李茂国, 等
+@media (min-width: 900px) {
+  .patent-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 1.35rem;
+    row-gap: 0;
+  }
 
-- 14. [4th], *已授权*, 基于机械臂快拆接口的小型通用智能化月面基建工程系统设计. 李茂国, 魏承, 孙晟昕, 等
+  .patent-item {
+    padding-right: 0.25rem;
+  }
+}
 
-- 15. [3rd], *实质审查*, 多自由度电磁弹射分离与吸附一体化空间接口装置. 白文博, 李茂国, **张宁**, 等
+@media (max-width: 520px) {
+  .patent-item {
+    grid-template-columns: 2.55rem 1fr;
+    gap: 0.6rem;
+  }
 
-- 16. [4th], *实质审查*, 大惯量异形旋转载荷卫星动静不平衡多目标优化配平方法. 魏承, 马文来, 曹喜滨, 等
+  .patent-no {
+    font-size: 0.76rem;
+  }
+}
+</style>
 
-- 17. [1st], *实质审查*, 在轨更换装置. **张宁**, 王培基, 杨旭辉, 等
+<div class="patent-list">
+  <article class="patent-item">
+    <div class="patent-no">01</div>
+    <div>
+      <div class="patent-meta"><span class="patent-rank">4th</span><span class="patent-status patent-status--granted">已授权</span></div>
+      <div class="patent-title">一种基于飞行记录仪的太阳能发电系统</div>
+      <div class="patent-authors">刘岩松, 龙岩, 李景奎, 等</div>
+    </div>
+  </article>
 
-- 18. [4th], *实质审查*, 面向地外天体安全采样的蒸馏集成学习土壤参数反演方法. 孙晟昕, 李茂国, 刘慧金, 等
+  <article class="patent-item">
+    <div class="patent-no">02</div>
+    <div>
+      <div class="patent-meta"><span class="patent-rank">3rd</span><span class="patent-status patent-status--granted">已授权</span></div>
+      <div class="patent-title">太阳翼二次展开重力卸载试验装置</div>
+      <div class="patent-authors">沈迎咏, 高晶波, <strong>张宁</strong>, 等</div>
+    </div>
+  </article>
 
-- 19. [5th], *实质审查*, 基于近端策略优化算法的固定基座机械臂点对点轨迹优化方法. 孙晟昕, 钟雨洁, 张剑桥, 等
+  <article class="patent-item">
+    <div class="patent-no">03</div>
+    <div>
+      <div class="patent-meta"><span class="patent-rank">3rd</span><span class="patent-status patent-status--review">实质审查</span></div>
+      <div class="patent-title">火星表面三维地形重构方法</div>
+      <div class="patent-authors">马文来, 孟繁睿, <strong>张宁</strong>, 等</div>
+    </div>
+  </article>
 
-- 20. [6th], *实质审查*, 基于组相对策略优化算法的空间机械臂轨迹优化方法. 孙晟昕, 钟雨洁, 李建融, 等
+  <article class="patent-item">
+    <div class="patent-no">04</div>
+    <div>
+      <div class="patent-meta"><span class="patent-rank">3rd</span><span class="patent-status patent-status--review">实质审查</span></div>
+      <div class="patent-title">火星表面小石块的目标检测方法</div>
+      <div class="patent-authors">赵阳, 杨旭辉, <strong>张宁</strong>, 等</div>
+    </div>
+  </article>
 
-- 21. [12th], *实质审查*, 小提琴演奏机器人自适应运弓控制方法. 李建融, 魏承, 乔淑楠, 等
+  <article class="patent-item">
+    <div class="patent-no">05</div>
+    <div>
+      <div class="patent-meta"><span class="patent-rank">1st</span><span class="patent-status patent-status--review">实质审查</span></div>
+      <div class="patent-title">多功能一体化静刚度测试系统</div>
+      <div class="patent-authors"><strong>张宁</strong>, 胡操, 马文来, 等</div>
+    </div>
+  </article>
 
-- 22. [5th], *已申请*, 一种基于参数重组与可识别性约束的轮-土模型小样本分阶段贝叶斯反演方法.
+  <article class="patent-item">
+    <div class="patent-no">06</div>
+    <div>
+      <div class="patent-meta"><span class="patent-rank">2nd</span><span class="patent-status patent-status--granted">已授权</span></div>
+      <div class="patent-title">基于宿主卫星与寄宿载荷分离、锁定的机械接口系统及方法</div>
+      <div class="patent-authors">彭思淇, <strong>张宁</strong>, 王震南, 等</div>
+    </div>
+  </article>
 
-- 23. [2nd], *已申请*, 面向空间太阳能卫星的能量最优姿态控制方法.
+  <article class="patent-item">
+    <div class="patent-no">07</div>
+    <div>
+      <div class="patent-meta"><span class="patent-rank">3rd</span><span class="patent-status patent-status--granted">已授权</span></div>
+      <div class="patent-title">监测宿主卫星与寄宿载荷分离、锁定姿态的试验装置</div>
+      <div class="patent-authors">孟繁睿, 杨旭辉, <strong>张宁</strong>, 等</div>
+    </div>
+  </article>
 
-- 24. [5th], *已申请*, 一种基于子模信息增益模型视角的手眼标定位姿阵列生成方法.
+  <article class="patent-item">
+    <div class="patent-no">08</div>
+    <div>
+      <div class="patent-meta"><span class="patent-rank">7th</span><span class="patent-status patent-status--granted">已授权</span></div>
+      <div class="patent-title">基于阿基米德螺旋线原理的可变刚度柔顺抓取装置</div>
+      <div class="patent-authors">李茂国, 魏承, 李诗宇, 等</div>
+    </div>
+  </article>
 
-- 25. [5th], *已申请*, 含间隙铰链柔性多体系统的热—机耦合多尺度动力学求解方法.
+  <article class="patent-item">
+    <div class="patent-no">09</div>
+    <div>
+      <div class="patent-meta"><span class="patent-rank">7th</span><span class="patent-status patent-status--granted">已授权</span></div>
+      <div class="patent-title">四足轮腿复合式机器人腿部折展伸缩变形机构</div>
+      <div class="patent-authors">揭诗怡, 魏承, 周峻宇, 等</div>
+    </div>
+  </article>
 
-- 26. [5th], *已申请*, 含间隙铰链变构型航天器天线的热-力耦合动力学建模方法.
+  <article class="patent-item">
+    <div class="patent-no">10</div>
+    <div>
+      <div class="patent-meta"><span class="patent-rank">3rd</span><span class="patent-status patent-status--granted">已授权</span></div>
+      <div class="patent-title">防止百米级环柱天线振动的伸缩机构</div>
+      <div class="patent-authors">李诗宇, 李茂国, <strong>张宁</strong>, 等</div>
+    </div>
+  </article>
 
-- 27. [13th], *已申请*, 一种建筑被动遮阳快速能耗舒适度联合评估方法.
+  <article class="patent-item">
+    <div class="patent-no">11</div>
+    <div>
+      <div class="patent-meta"><span class="patent-rank">2nd</span><span class="patent-status patent-status--granted">已授权</span></div>
+      <div class="patent-title">一种高精度四体动力学模型下的航天器轨道设计方法</div>
+      <div class="patent-authors">刘文豪, <strong>张宁</strong>, 李辰辉, 等</div>
+    </div>
+  </article>
+
+  <article class="patent-item">
+    <div class="patent-no">12</div>
+    <div>
+      <div class="patent-meta"><span class="patent-rank">5th</span><span class="patent-status patent-status--granted">已授权</span></div>
+      <div class="patent-title">一种用于月球车机械臂末端的模块化自动快拆接口</div>
+      <div class="patent-authors">刘博屹, 魏承, 李茂国, 等</div>
+    </div>
+  </article>
+
+  <article class="patent-item">
+    <div class="patent-no">13</div>
+    <div>
+      <div class="patent-meta"><span class="patent-rank">5th</span><span class="patent-status patent-status--review">实质审查</span></div>
+      <div class="patent-title">基于转盘式升降台的双舱门月面智能工具箱</div>
+      <div class="patent-authors">揭诗怡, 魏承, 李茂国, 等</div>
+    </div>
+  </article>
+
+  <article class="patent-item">
+    <div class="patent-no">14</div>
+    <div>
+      <div class="patent-meta"><span class="patent-rank">4th</span><span class="patent-status patent-status--granted">已授权</span></div>
+      <div class="patent-title">基于机械臂快拆接口的小型通用智能化月面基建工程系统设计</div>
+      <div class="patent-authors">李茂国, 魏承, 孙晟昕, 等</div>
+    </div>
+  </article>
+
+  <article class="patent-item">
+    <div class="patent-no">15</div>
+    <div>
+      <div class="patent-meta"><span class="patent-rank">3rd</span><span class="patent-status patent-status--review">实质审查</span></div>
+      <div class="patent-title">多自由度电磁弹射分离与吸附一体化空间接口装置</div>
+      <div class="patent-authors">白文博, 李茂国, <strong>张宁</strong>, 等</div>
+    </div>
+  </article>
+
+  <article class="patent-item">
+    <div class="patent-no">16</div>
+    <div>
+      <div class="patent-meta"><span class="patent-rank">4th</span><span class="patent-status patent-status--review">实质审查</span></div>
+      <div class="patent-title">大惯量异形旋转载荷卫星动静不平衡多目标优化配平方法</div>
+      <div class="patent-authors">魏承, 马文来, 曹喜滨, 等</div>
+    </div>
+  </article>
+
+  <article class="patent-item">
+    <div class="patent-no">17</div>
+    <div>
+      <div class="patent-meta"><span class="patent-rank">1st</span><span class="patent-status patent-status--review">实质审查</span></div>
+      <div class="patent-title">在轨更换装置</div>
+      <div class="patent-authors"><strong>张宁</strong>, 王培基, 杨旭辉, 等</div>
+    </div>
+  </article>
+
+  <article class="patent-item">
+    <div class="patent-no">18</div>
+    <div>
+      <div class="patent-meta"><span class="patent-rank">4th</span><span class="patent-status patent-status--review">实质审查</span></div>
+      <div class="patent-title">面向地外天体安全采样的蒸馏集成学习土壤参数反演方法</div>
+      <div class="patent-authors">孙晟昕, 李茂国, 刘慧金, 等</div>
+    </div>
+  </article>
+
+  <article class="patent-item">
+    <div class="patent-no">19</div>
+    <div>
+      <div class="patent-meta"><span class="patent-rank">5th</span><span class="patent-status patent-status--review">实质审查</span></div>
+      <div class="patent-title">基于近端策略优化算法的固定基座机械臂点对点轨迹优化方法</div>
+      <div class="patent-authors">孙晟昕, 钟雨洁, 张剑桥, 等</div>
+    </div>
+  </article>
+
+  <article class="patent-item">
+    <div class="patent-no">20</div>
+    <div>
+      <div class="patent-meta"><span class="patent-rank">6th</span><span class="patent-status patent-status--review">实质审查</span></div>
+      <div class="patent-title">基于组相对策略优化算法的空间机械臂轨迹优化方法</div>
+      <div class="patent-authors">孙晟昕, 钟雨洁, 李建融, 等</div>
+    </div>
+  </article>
+
+  <article class="patent-item">
+    <div class="patent-no">21</div>
+    <div>
+      <div class="patent-meta"><span class="patent-rank">12th</span><span class="patent-status patent-status--review">实质审查</span></div>
+      <div class="patent-title">小提琴演奏机器人自适应运弓控制方法</div>
+      <div class="patent-authors">李建融, 魏承, 乔淑楠, 等</div>
+    </div>
+  </article>
+
+  <article class="patent-item">
+    <div class="patent-no">22</div>
+    <div>
+      <div class="patent-meta"><span class="patent-rank">5th</span><span class="patent-status patent-status--filed">已申请</span></div>
+      <div class="patent-title">一种基于参数重组与可识别性约束的轮-土模型小样本分阶段贝叶斯反演方法</div>
+    </div>
+  </article>
+
+  <article class="patent-item">
+    <div class="patent-no">23</div>
+    <div>
+      <div class="patent-meta"><span class="patent-rank">2nd</span><span class="patent-status patent-status--filed">已申请</span></div>
+      <div class="patent-title">面向空间太阳能卫星的能量最优姿态控制方法</div>
+    </div>
+  </article>
+
+  <article class="patent-item">
+    <div class="patent-no">24</div>
+    <div>
+      <div class="patent-meta"><span class="patent-rank">5th</span><span class="patent-status patent-status--filed">已申请</span></div>
+      <div class="patent-title">一种基于子模信息增益模型视角的手眼标定位姿阵列生成方法</div>
+    </div>
+  </article>
+
+  <article class="patent-item">
+    <div class="patent-no">25</div>
+    <div>
+      <div class="patent-meta"><span class="patent-rank">5th</span><span class="patent-status patent-status--filed">已申请</span></div>
+      <div class="patent-title">含间隙铰链柔性多体系统的热—机耦合多尺度动力学求解方法</div>
+    </div>
+  </article>
+
+  <article class="patent-item">
+    <div class="patent-no">26</div>
+    <div>
+      <div class="patent-meta"><span class="patent-rank">5th</span><span class="patent-status patent-status--filed">已申请</span></div>
+      <div class="patent-title">含间隙铰链变构型航天器天线的热-力耦合动力学建模方法</div>
+    </div>
+  </article>
+
+  <article class="patent-item">
+    <div class="patent-no">27</div>
+    <div>
+      <div class="patent-meta"><span class="patent-rank">13th</span><span class="patent-status patent-status--filed">已申请</span></div>
+      <div class="patent-title">一种建筑被动遮阳快速能耗舒适度联合评估方法</div>
+    </div>
+  </article>
+</div>
 
 
 
