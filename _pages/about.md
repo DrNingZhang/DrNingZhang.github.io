@@ -28,6 +28,27 @@ My current research focuses on **dynamics and control of robots**, **specificall
 # ✒️ Journal paper
 
 <style>
+.journal-note {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  margin: 0.6rem 0 0.95rem;
+  padding: 0.65rem 0.85rem;
+  border-left: 4px solid #f59e0b;
+  border-radius: 6px;
+  color: #334155;
+  background: #fff7ed;
+  font-size: 0.94rem;
+  font-weight: 650;
+  line-height: 1.45;
+}
+
+.journal-note__icon {
+  flex: 0 0 auto;
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
 .journal-list {
   display: grid;
   gap: 1.05rem;
@@ -190,6 +211,11 @@ My current research focuses on **dynamics and control of robots**, **specificall
   }
 }
 </style>
+
+<div class="journal-note">
+  <span class="journal-note__icon" aria-hidden="true">🚀</span>
+  <span>Several papers are in the works and being rushed to completion right now!</span>
+</div>
 
 <div class="journal-list">
   <article class="journal-item">
