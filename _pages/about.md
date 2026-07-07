@@ -213,49 +213,197 @@ My current research interests include **Cryptographic Hardware Acceleration** an
 
 
 # 📃 Conference paper
-- [Effects of different deployment strategies on the dynamic characteristics of bidirectional solar array](https://doi.org/10.1088/1742-6596/2746/1/012037)
-  - Author: Yingyong Shen, Cong Wang, Shiyu Tan, **Ning Zhang**, Jingbo Gao
-  - Conference: The 14th Asia Conference on Mechanical and Aerospace Engineering (ACMAE 2023)
 
-- [Static Stiffness Testing and Validation of a Large Hoop-Column Deployable Antenna Based on Similarity Theory](https://doi.org/10.3233/ATDE250048)
-  - Author: Fanrui Meng, Xuhui Yang, **Ning Zhang**, Lei Liang, Jingbo Gao, Wenlai Ma, Jiang Zhou, Jiacong Yin, Fuxiang Dong, Chunyang Jiang
-  - Conference: The 15th Asia Conference on Mechanical and Aerospace Engineering (ACMAE 2024)
+<style>
+.conference-list {
+  display: grid;
+  gap: 1.05rem;
+  margin: 1rem 0 2rem;
+}
 
-- [Vision-Based Robotic Grasping Method for Nest Frame Based on Gen6D and AnyGrasp](https://doi.org/10.1109/ISCAIT64916.2025.11010279)
-  - Author: Maoguo Li, Zhenyu Zhang, Xiaoyan Zhang, Shiyu Li, **Ning Zhang**, Shengxin Sun
-  - Conference: 2025 4th International Symposium on Computer Applications and Information Technology (ISCAIT)
+.conference-item {
+  display: grid;
+  grid-template-columns: 170px minmax(0, 1fr);
+  gap: 1.35rem;
+  align-items: center;
+  padding: 1rem 0;
+  border-bottom: 1px solid #e8ebef;
+}
 
-- [Prediction of shear strength of soil based on interpretable ensemble learning method with knowledge distillation](https://doi.org/10.1117/12.3067302)
-  - Author: Maoguo Li, Shiyu Li, **Ning Zhang**, Shengxin Sun
-  - Conference: 4th International Conference on Electronic Information Engineering and Data Processing (EIEDP 2025)
+.conference-thumb {
+  width: 170px;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  background: #f8fafc;
+}
 
-- [Electro-Thermo-Mechanical Design and Development of a Reusable Spring-Actuated Separation Mechanism for ORUs](https://doi.org/10.1109/ISAES66870.2025.11274285)
-  - Author: Wenbo Bai, Xuhui Yang, **Ning Zhang**, Wenlai Ma, Peng Tian, Qiang Zhang, Xiaosong Zhang, Qiaodong Zhang
-  - Conference: 2025 4th International Symposium on Aerospace Engineering and Systems (ISAES)
+.conference-thumb img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
 
-- [High-Fidelity Multibody and Steady-State CFD Co-Simulation of Spring-Driven Separation Dynamics for Plate-Type Orbital Replacement Units](https://doi.org/10.1109/ISAES66870.2025.11274346)
-  - Author: Xuhui Yang, Wenbo Bai, **Ning Zhang**, Wenlai Ma, Haoyu Li, Peng Tian, Qiang Zhang, Ke Wang
-  - Conference: 2025 4th International Symposium on Aerospace Engineering and Systems (ISAES)
+.conference-title {
+  margin: 0 0 0.45rem;
+  color: #174a8b;
+  font-size: 1.02rem;
+  font-weight: 700;
+  line-height: 1.45;
+}
 
-- [Design of Transfer Trajectories between Earth-Moon L1 and L2 Libration Points in the Ephemeris Model](https://doi.org/10.1109/ICMTAE66890.2025.11427976)
-  - Author: Wenhao Liu, **Ning Zhang**, Wenlai Ma, Weiguang Liang, Ao Chen, Yangkang Pu
-  - Conference: 2025 5th International Conference on Mechatronics Technology and Aerospace Engineering (ICMTAE)
+.conference-title a {
+  color: inherit;
+  text-decoration: none;
+}
 
-- [Structure design of electromagnetic-driven separation ejection mechanism for on-orbit units](https://doi.org/10.1088/1742-6596/3240/1/012005)
-  - Author: Ziyi Xu, **Ning Zhang**, Wenbo Bai, Wenlai Ma, Yang Zhao
-  - Conference: 2026 International Conference on Aerospace, Intelligent Perception and Control (AIPC 2026)
+.conference-title a:hover {
+  color: #00369f;
+  text-decoration: underline;
+}
 
-- [Learning Soil-Adaptive Robotic Excavation via Diffusion Policy](https://doi.org/10.1109/FASTA70174.2026.11549281)
-  - Author: Zichun Ma, Jianqiao Zhang, Jianrong Li, **Ning Zhang**, Maoguo Li, Ziyi Xu, Shiyu Li, Shengxin Sun
-  - Conference: 2026 5th Conference on Fully Actuated System Theory and Applications (FASTA)
+.conference-authors,
+.conference-venue {
+  color: #58626f;
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
 
-- [Precision Trajectory Tracking Control for Space Manipulators in On-Orbit Assembly Considering Truss Flexibility and Dynamic Coupling](https://doi.org/10.1109/FASTA70174.2026.11548895)
-  - Author: Maoguo Li, Xianglong Kong, Jianrong Li, **Ning Zhang**, Jianqiao Zhang, Zichun Ma, Shiyu Li, Ziyi Xu, Shengxin Sun
-  - Conference: 2026 5th Conference on Fully Actuated System Theory and Applications (FASTA)
+.conference-authors {
+  margin-bottom: 0.3rem;
+}
 
-- [Precision Force Control for a Flexible-Base Space Manipulator in Asteroid Surface Excavation Under Unknown Contact Forces](https://doi.org/10.1109/FASTA70174.2026.11549438)
-  - Author: Shiyu Li, Xianglong Kong, **Ning Zhang**, Jianqiao Zhang, Maoguo Li, Zichun Ma, Ziyi Xu, Shengxin Sun, Jianrong Li
-  - Conference: 2026 5th Conference on Fully Actuated System Theory and Applications (FASTA)
+.conference-tag {
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.35rem;
+  margin-left: 0.35rem;
+  padding: 0.1rem 0.45rem;
+  border-radius: 4px;
+  color: #4c3f82;
+  background: #ece8fb;
+  font-size: 0.72rem;
+  font-weight: 700;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+@media (max-width: 700px) {
+  .conference-item {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+
+  .conference-thumb {
+    width: 100%;
+    max-width: 320px;
+  }
+}
+</style>
+
+<div class="conference-list">
+  <article class="conference-item">
+    <div class="conference-thumb"><img src="images/Conference%20paper/Conference%20paper1.png" alt="Bidirectional solar array deployment strategies"></div>
+    <div>
+      <h3 class="conference-title"><a href="https://doi.org/10.1088/1742-6596/2746/1/012037">Effects of different deployment strategies on the dynamic characteristics of bidirectional solar array</a></h3>
+      <div class="conference-authors">Yingyong Shen, Cong Wang, Shiyu Tan, <strong>Ning Zhang</strong>, Jingbo Gao</div>
+      <div class="conference-venue">The 14th Asia Conference on Mechanical and Aerospace Engineering <span class="conference-tag">ACMAE 2023</span></div>
+    </div>
+  </article>
+
+  <article class="conference-item">
+    <div class="conference-thumb"><img src="images/Conference%20paper/Conference%20paper2.png" alt="Large hoop-column deployable antenna stiffness testing"></div>
+    <div>
+      <h3 class="conference-title"><a href="https://doi.org/10.3233/ATDE250048">Static Stiffness Testing and Validation of a Large Hoop-Column Deployable Antenna Based on Similarity Theory</a></h3>
+      <div class="conference-authors">Fanrui Meng, Xuhui Yang, <strong>Ning Zhang</strong>, Lei Liang, Jingbo Gao, Wenlai Ma, Jiang Zhou, Jiacong Yin, Fuxiang Dong, Chunyang Jiang</div>
+      <div class="conference-venue">The 15th Asia Conference on Mechanical and Aerospace Engineering <span class="conference-tag">ACMAE 2024</span></div>
+    </div>
+  </article>
+
+  <article class="conference-item">
+    <div class="conference-thumb"><img src="images/Conference%20paper/Conference%20paper3.png" alt="Vision-based robotic grasping for nest frames"></div>
+    <div>
+      <h3 class="conference-title"><a href="https://doi.org/10.1109/ISCAIT64916.2025.11010279">Vision-Based Robotic Grasping Method for Nest Frame Based on Gen6D and AnyGrasp</a></h3>
+      <div class="conference-authors">Maoguo Li, Zhenyu Zhang, Xiaoyan Zhang, Shiyu Li, <strong>Ning Zhang</strong>, Shengxin Sun</div>
+      <div class="conference-venue">4th International Symposium on Computer Applications and Information Technology <span class="conference-tag">ISCAIT 2025</span></div>
+    </div>
+  </article>
+
+  <article class="conference-item">
+    <div class="conference-thumb"><img src="images/Conference%20paper/Conference%20paper4.png" alt="Interpretable ensemble learning for soil shear strength prediction"></div>
+    <div>
+      <h3 class="conference-title"><a href="https://doi.org/10.1117/12.3067302">Prediction of shear strength of soil based on interpretable ensemble learning method with knowledge distillation</a></h3>
+      <div class="conference-authors">Maoguo Li, Shiyu Li, <strong>Ning Zhang</strong>, Shengxin Sun</div>
+      <div class="conference-venue">4th International Conference on Electronic Information Engineering and Data Processing <span class="conference-tag">EIEDP 2025</span></div>
+    </div>
+  </article>
+
+  <article class="conference-item">
+    <div class="conference-thumb"><img src="images/Conference%20paper/Conference%20paper5.png" alt="Spring-actuated separation mechanism for ORUs"></div>
+    <div>
+      <h3 class="conference-title"><a href="https://doi.org/10.1109/ISAES66870.2025.11274285">Electro-Thermo-Mechanical Design and Development of a Reusable Spring-Actuated Separation Mechanism for ORUs</a></h3>
+      <div class="conference-authors">Wenbo Bai, Xuhui Yang, <strong>Ning Zhang</strong>, Wenlai Ma, Peng Tian, Qiang Zhang, Xiaosong Zhang, Qiaodong Zhang</div>
+      <div class="conference-venue">4th International Symposium on Aerospace Engineering and Systems <span class="conference-tag">ISAES 2025</span></div>
+    </div>
+  </article>
+
+  <article class="conference-item">
+    <div class="conference-thumb"><img src="images/Conference%20paper/Conference%20paper6.png" alt="Spring-driven separation dynamics co-simulation"></div>
+    <div>
+      <h3 class="conference-title"><a href="https://doi.org/10.1109/ISAES66870.2025.11274346">High-Fidelity Multibody and Steady-State CFD Co-Simulation of Spring-Driven Separation Dynamics for Plate-Type Orbital Replacement Units</a></h3>
+      <div class="conference-authors">Xuhui Yang, Wenbo Bai, <strong>Ning Zhang</strong>, Wenlai Ma, Haoyu Li, Peng Tian, Qiang Zhang, Ke Wang</div>
+      <div class="conference-venue">4th International Symposium on Aerospace Engineering and Systems <span class="conference-tag">ISAES 2025</span></div>
+    </div>
+  </article>
+
+  <article class="conference-item">
+    <div class="conference-thumb"><img src="images/Conference%20paper/Conference%20paper7.png" alt="Earth-Moon libration point transfer trajectories"></div>
+    <div>
+      <h3 class="conference-title"><a href="https://doi.org/10.1109/ICMTAE66890.2025.11427976">Design of Transfer Trajectories between Earth-Moon L1 and L2 Libration Points in the Ephemeris Model</a></h3>
+      <div class="conference-authors">Wenhao Liu, <strong>Ning Zhang</strong>, Wenlai Ma, Weiguang Liang, Ao Chen, Yangkang Pu</div>
+      <div class="conference-venue">5th International Conference on Mechatronics Technology and Aerospace Engineering <span class="conference-tag">ICMTAE 2025</span></div>
+    </div>
+  </article>
+
+  <article class="conference-item">
+    <div class="conference-thumb"><img src="images/Conference%20paper/Conference%20paper8.png" alt="Electromagnetic-driven separation ejection mechanism"></div>
+    <div>
+      <h3 class="conference-title"><a href="https://doi.org/10.1088/1742-6596/3240/1/012005">Structure design of electromagnetic-driven separation ejection mechanism for on-orbit units</a></h3>
+      <div class="conference-authors">Ziyi Xu, <strong>Ning Zhang</strong>, Wenbo Bai, Wenlai Ma, Yang Zhao</div>
+      <div class="conference-venue">International Conference on Aerospace, Intelligent Perception and Control <span class="conference-tag">AIPC 2026</span></div>
+    </div>
+  </article>
+
+  <article class="conference-item">
+    <div class="conference-thumb"><img src="images/Conference%20paper/Conference%20paper9.png" alt="Diffusion policy for soil-adaptive robotic excavation"></div>
+    <div>
+      <h3 class="conference-title"><a href="https://doi.org/10.1109/FASTA70174.2026.11549281">Learning Soil-Adaptive Robotic Excavation via Diffusion Policy</a></h3>
+      <div class="conference-authors">Zichun Ma, Jianqiao Zhang, Jianrong Li, <strong>Ning Zhang</strong>, Maoguo Li, Ziyi Xu, Shiyu Li, Shengxin Sun</div>
+      <div class="conference-venue">5th Conference on Fully Actuated System Theory and Applications <span class="conference-tag">FASTA 2026</span></div>
+    </div>
+  </article>
+
+  <article class="conference-item">
+    <div class="conference-thumb"><img src="images/Conference%20paper/Conference%20paper10.png" alt="Space manipulator trajectory tracking with truss flexibility"></div>
+    <div>
+      <h3 class="conference-title"><a href="https://doi.org/10.1109/FASTA70174.2026.11548895">Precision Trajectory Tracking Control for Space Manipulators in On-Orbit Assembly Considering Truss Flexibility and Dynamic Coupling</a></h3>
+      <div class="conference-authors">Maoguo Li, Xianglong Kong, Jianrong Li, <strong>Ning Zhang</strong>, Jianqiao Zhang, Zichun Ma, Shiyu Li, Ziyi Xu, Shengxin Sun</div>
+      <div class="conference-venue">5th Conference on Fully Actuated System Theory and Applications <span class="conference-tag">FASTA 2026</span></div>
+    </div>
+  </article>
+
+  <article class="conference-item">
+    <div class="conference-thumb"><img src="images/Conference%20paper/Conference%20paper11.png" alt="Flexible-base space manipulator force control"></div>
+    <div>
+      <h3 class="conference-title"><a href="https://doi.org/10.1109/FASTA70174.2026.11549438">Precision Force Control for a Flexible-Base Space Manipulator in Asteroid Surface Excavation Under Unknown Contact Forces</a></h3>
+      <div class="conference-authors">Shiyu Li, Xianglong Kong, <strong>Ning Zhang</strong>, Jianqiao Zhang, Maoguo Li, Zichun Ma, Ziyi Xu, Shengxin Sun, Jianrong Li</div>
+      <div class="conference-venue">5th Conference on Fully Actuated System Theory and Applications <span class="conference-tag">FASTA 2026</span></div>
+    </div>
+  </article>
+</div>
 
 
 
