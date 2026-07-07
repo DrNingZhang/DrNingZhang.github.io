@@ -38,6 +38,17 @@ author:
   facebook         :
   foursquare       :
   github           : "DrNingZhang"
+  bilibili:
+    name           : "火箭搬砖博士"
+    url            : "https://space.bilibili.com/170414331?spm_id_from=333.1007.0.0"
+    followers      : "6261"
+    qrcode         : "images/QRcode/bilibili.png"
+  wechat_official:
+    name           : "火箭搬砖博士"
+    qrcode         : "images/QRcode/公众号.jpg"
+  wechat:
+    name           : "扫码添加"
+    qrcode         : "images/QRcode/微信.jpg"
   google_plus      :
   keybase          :
   instagram        :

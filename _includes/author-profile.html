@@ -37,6 +37,49 @@
       {% if author.github %}
         <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a></li>
       {% endif %}
+      {% if author.bilibili %}
+        <li class="author__qr-item">
+          <a class="author__qr-trigger" href="{{ author.bilibili.url }}">
+            <i class="fas fa-fw fa-play-circle" aria-hidden="true"></i>
+            <span>B站: {{ author.bilibili.name }}</span>
+            {% if author.bilibili.followers %}<span class="author__qr-muted">粉丝 {{ author.bilibili.followers }}</span>{% endif %}
+          </a>
+          {% if author.bilibili.qrcode %}
+            <div class="author__qr-popover">
+              <img src="{{ author.bilibili.qrcode | relative_url }}" alt="B站二维码">
+              <div class="author__qr-caption">扫码关注 B站</div>
+            </div>
+          {% endif %}
+        </li>
+      {% endif %}
+      {% if author.wechat_official %}
+        <li class="author__qr-item">
+          <span class="author__qr-trigger" tabindex="0">
+            <i class="fas fa-fw fa-newspaper" aria-hidden="true"></i>
+            <span>公众号: {{ author.wechat_official.name }}</span>
+          </span>
+          {% if author.wechat_official.qrcode %}
+            <div class="author__qr-popover">
+              <img src="{{ author.wechat_official.qrcode | relative_url }}" alt="公众号二维码">
+              <div class="author__qr-caption">扫码关注公众号</div>
+            </div>
+          {% endif %}
+        </li>
+      {% endif %}
+      {% if author.wechat %}
+        <li class="author__qr-item">
+          <span class="author__qr-trigger" tabindex="0">
+            <i class="fab fa-fw fa-weixin" aria-hidden="true"></i>
+            <span>微信: {{ author.wechat.name }}</span>
+          </span>
+          {% if author.wechat.qrcode %}
+            <div class="author__qr-popover">
+              <img src="{{ author.wechat.qrcode | relative_url }}" alt="微信二维码">
+              <div class="author__qr-caption">扫码添加微信</div>
+            </div>
+          {% endif %}
+        </li>
+      {% endif %}
       {% if author.googlescholar %}
         <li><a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></li>
       {% endif %}
@@ -161,6 +204,15 @@
       {% endif %}
       {% if author.github %}
         <a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i></a>
+      {% endif %}
+      {% if author.bilibili %}
+        <a href="{{ author.bilibili.url }}"><i class="fas fa-fw fa-play-circle" aria-hidden="true"></i></a>
+      {% endif %}
+      {% if author.wechat_official and author.wechat_official.qrcode %}
+        <a href="{{ author.wechat_official.qrcode | relative_url }}"><i class="fas fa-fw fa-newspaper" aria-hidden="true"></i></a>
+      {% endif %}
+      {% if author.wechat and author.wechat.qrcode %}
+        <a href="{{ author.wechat.qrcode | relative_url }}"><i class="fab fa-fw fa-weixin" aria-hidden="true"></i></a>
       {% endif %}
       {% if author.stackoverflow %}
         <a href="https://www.stackoverflow.com/users/{{ author.stackoverflow }}"><i class="fab fa-fw fa-stack-overflow" aria-hidden="true"></i></a>
