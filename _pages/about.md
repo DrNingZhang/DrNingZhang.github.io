@@ -762,6 +762,94 @@ My current research interests include **Cryptographic Hardware Acceleration** an
 <span class='anchor' id='experiences'></span>
 
 # 🎓 Experiences
-- *2023.09 - Now*, Ph.D., Harbin Institute of Technology, Aeronautical and Astronautical Science and Technology
-- *2021.09 - 2023.06*, M.S., Harbin Institute of Technology, Aeronautical and Astronautical Science and Technology
-- *2016.09 - 2020.06*, B.E., Shenyang Aerospace University, Aircraft Quality and Reliability
+
+<style>
+.experience-list {
+  position: relative;
+  display: grid;
+  gap: 0.95rem;
+  margin: 1rem 0 2rem;
+}
+
+.experience-item {
+  display: grid;
+  grid-template-columns: 8.5rem minmax(0, 1fr);
+  gap: 1.15rem;
+  align-items: start;
+  padding: 1rem 0;
+  border-bottom: 1px solid #e8ebef;
+}
+
+.experience-period {
+  color: #334155;
+  font-size: 0.82rem;
+  font-weight: 700;
+  line-height: 1.45;
+}
+
+.experience-period span {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.18rem 0.5rem;
+  border-radius: 4px;
+  background: #f1f5f9;
+}
+
+.experience-degree {
+  color: #174a8b;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.45;
+  margin-bottom: 0.25rem;
+}
+
+.experience-school {
+  color: #1f2933;
+  font-size: 0.95rem;
+  font-weight: 650;
+  line-height: 1.5;
+}
+
+.experience-field {
+  color: #58626f;
+  font-size: 0.9rem;
+  line-height: 1.55;
+  margin-top: 0.15rem;
+}
+
+@media (max-width: 700px) {
+  .experience-item {
+    grid-template-columns: 1fr;
+    gap: 0.45rem;
+  }
+}
+</style>
+
+<div class="experience-list">
+  <article class="experience-item">
+    <div class="experience-period"><span>2023.09 - Now</span></div>
+    <div>
+      <div class="experience-degree">Ph.D.</div>
+      <div class="experience-school">Harbin Institute of Technology</div>
+      <div class="experience-field">Aeronautical and Astronautical Science and Technology</div>
+    </div>
+  </article>
+
+  <article class="experience-item">
+    <div class="experience-period"><span>2021.09 - 2023.06</span></div>
+    <div>
+      <div class="experience-degree">M.S.</div>
+      <div class="experience-school">Harbin Institute of Technology</div>
+      <div class="experience-field">Aeronautical and Astronautical Science and Technology</div>
+    </div>
+  </article>
+
+  <article class="experience-item">
+    <div class="experience-period"><span>2016.09 - 2020.06</span></div>
+    <div>
+      <div class="experience-degree">B.E.</div>
+      <div class="experience-school">Shenyang Aerospace University</div>
+      <div class="experience-field">Aircraft Quality and Reliability</div>
+    </div>
+  </article>
+</div>
