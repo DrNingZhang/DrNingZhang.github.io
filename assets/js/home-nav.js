@@ -27,6 +27,10 @@
     });
   }
 
+  function getNavSectionId(id) {
+    return id.indexOf("patents-") === 0 ? "inventive-patent" : id;
+  }
+
   toggle.addEventListener("click", function () {
     var isOpen = menu.classList.toggle("is-open");
     toggle.classList.toggle("close", isOpen);
@@ -63,7 +67,7 @@
   }).filter(Boolean);
 
   if (window.location.hash) {
-    setActive(window.location.hash.slice(1));
+    setActive(getNavSectionId(window.location.hash.slice(1)));
   } else if (sections.length) {
     setActive(sections[0].id);
   }
@@ -85,9 +89,59 @@
     });
   }
 
+  var patentGroups = Array.prototype.slice.call(document.querySelectorAll("details.patent-group"));
+  var hoverPointer = window.matchMedia("(hover: hover) and (pointer: fine)");
+
+  patentGroups.forEach(function (group) {
+    var summary = group.querySelector("summary");
+
+    group.addEventListener("mouseenter", function () {
+      if (hoverPointer.matches) {
+        group.open = true;
+      }
+    });
+
+    group.addEventListener("mouseleave", function () {
+      if (hoverPointer.matches) {
+        group.open = false;
+      }
+    });
+
+    if (summary) {
+      summary.addEventListener("click", function (event) {
+        if (hoverPointer.matches && event.detail > 0) {
+          event.preventDefault();
+        }
+      });
+    }
+  });
+
+  Array.prototype.slice.call(document.querySelectorAll(".patent-summary__item")).forEach(function (link) {
+    link.addEventListener("click", function () {
+      var target = document.getElementById(link.hash.slice(1));
+      if (target && target.matches("details.patent-group")) {
+        target.open = true;
+      }
+    });
+  });
+
+  function openPatentGroupFromHash() {
+    if (!window.location.hash) {
+      return;
+    }
+
+    var target = document.getElementById(window.location.hash.slice(1));
+    if (target && target.matches("details.patent-group")) {
+      target.open = true;
+    }
+  }
+
+  openPatentGroupFromHash();
+
   window.addEventListener("hashchange", function () {
     if (window.location.hash) {
-      setActive(window.location.hash.slice(1));
+      setActive(getNavSectionId(window.location.hash.slice(1)));
+      openPatentGroupFromHash();
     }
   });
 }());

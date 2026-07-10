@@ -322,11 +322,11 @@ redirect_from:
 </nav>
 
 <div class="patent-register">
-  <section class="patent-group patent-group--granted" id="patents-granted" aria-labelledby="patents-granted-title">
-    <div class="patent-group__header">
-      <h3 id="patents-granted-title"><i class="fas fa-check-circle" aria-hidden="true"></i><span>已授权</span><small>Authorized</small></h3>
-      <span class="patent-group__count">10 patents</span>
-    </div>
+  <details class="patent-group patent-group--granted" id="patents-granted" aria-labelledby="patents-granted-title">
+    <summary class="patent-group__header">
+      <span class="patent-group__title" id="patents-granted-title"><i class="fas fa-check-circle" aria-hidden="true"></i><span>已授权</span><small>Authorized</small></span>
+      <span class="patent-group__controls"><span class="patent-group__count">10 patents</span><span class="patent-group__indicator" aria-hidden="true"></span></span>
+    </summary>
     <div class="patent-group__grid">
   <article class="patent-item">
     <div class="patent-no">01</div>
@@ -419,13 +419,13 @@ redirect_from:
   </article>
 
     </div>
-  </section>
+  </details>
 
-  <section class="patent-group patent-group--review" id="patents-review" aria-labelledby="patents-review-title">
-    <div class="patent-group__header">
-      <h3 id="patents-review-title"><i class="fas fa-search" aria-hidden="true"></i><span>实质审查</span><small>Under Examination</small></h3>
-      <span class="patent-group__count">11 patents</span>
-    </div>
+  <details class="patent-group patent-group--review" id="patents-review" aria-labelledby="patents-review-title">
+    <summary class="patent-group__header">
+      <span class="patent-group__title" id="patents-review-title"><i class="fas fa-search" aria-hidden="true"></i><span>实质审查</span><small>Under Examination</small></span>
+      <span class="patent-group__controls"><span class="patent-group__count">11 patents</span><span class="patent-group__indicator" aria-hidden="true"></span></span>
+    </summary>
     <div class="patent-group__grid">
       <article class="patent-item">
         <div class="patent-no">01</div>
@@ -526,13 +526,13 @@ redirect_from:
         </div>
       </article>
     </div>
-  </section>
+  </details>
 
-  <section class="patent-group patent-group--filed" id="patents-filed" aria-labelledby="patents-filed-title">
-    <div class="patent-group__header">
-      <h3 id="patents-filed-title"><i class="fas fa-file-alt" aria-hidden="true"></i><span>已申请</span><small>Filed</small></h3>
-      <span class="patent-group__count">6 patents</span>
-    </div>
+  <details class="patent-group patent-group--filed" id="patents-filed" aria-labelledby="patents-filed-title">
+    <summary class="patent-group__header">
+      <span class="patent-group__title" id="patents-filed-title"><i class="fas fa-file-alt" aria-hidden="true"></i><span>已申请</span><small>Filed</small></span>
+      <span class="patent-group__controls"><span class="patent-group__count">6 patents</span><span class="patent-group__indicator" aria-hidden="true"></span></span>
+    </summary>
     <div class="patent-group__grid">
 
   <article class="patent-item">
@@ -583,7 +583,7 @@ redirect_from:
     </div>
   </article>
     </div>
-  </section>
+  </details>
 </div>
 
 
