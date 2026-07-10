@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Ning Zhang"
-description              : # "None"
+description              : "Academic homepage of Ning Zhang, a Ph.D. candidate at Harbin Institute of Technology researching dynamics and control for extraterrestrial robots."
 repository               : "DrNingZhang/DrNingZhang.github.io"
 google_scholar_stats_use_cdn : false
 
@@ -24,6 +24,8 @@ author:
   name             : "Ning Zhang (张宁)"
   avatar           : "images/CV.jpg"
   bio              : # "none"
+  role             : "Ph.D. Candidate"
+  research_focus   : "Extraterrestrial robotics, dynamics and control"
   location         : "Harbin, Heilongjiang, China"
   employer         : "Harbin Institute of Technology"
   pubmed           : 

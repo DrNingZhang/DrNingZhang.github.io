@@ -10,15 +10,15 @@
 
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
+    {% if author.role %}<p class="author__role">{{ author.role }}</p>{% endif %}
+    {% if author.research_focus %}<p class="author__research-focus">{{ author.research_focus }}</p>{% endif %}
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
   </div>
 
   <div class="author__urls-wrapper">
     <!-- <button class="btn btn--inverse">More Info & Contact</button> -->
     <ul class="author__urls social-icons">
-      {% if site.description %}
-        <li><div style="white-space: normal; margin-bottom: 1em;">{{ site.description }}</div></li>
-      {% endif %}
+      <li class="author__urls-heading">Academic</li>
       {% if author.employer %}
         <li><i class="fa fa-fw fa-school" aria-hidden="true"></i> {{ author.employer }}</li>
       {% endif %}
@@ -29,7 +29,7 @@
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
       {% endif %}
       {% if author.email %}
-        <li><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> {{ author.email }}</a></li>
+        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> {{ author.email }}</a></li>
       {% endif %}
       {% if author.keybase %}
         <li><a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i> Keybase</a></li>
@@ -37,6 +37,10 @@
       {% if author.github %}
         <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a></li>
       {% endif %}
+      {% if author.orcid %}
+        <li><a href="{{ author.orcid }}"><i class="ai ai-orcid-square ai-fw" aria-hidden="true"></i> ORCID</a></li>
+      {% endif %}
+      <li class="author__urls-heading author__urls-heading--social">Social</li>
       {% if author.bilibili %}
         <li class="author__qr-item">
           <a class="author__qr-trigger" href="{{ author.bilibili.url }}">
@@ -151,9 +155,6 @@
       {% endif %}
       {% if author.pubmed %}
         <li><a href="{{ author.pubmed }}"><i class="ai ai-pubmed-square ai-fw"></i> PubMed</a></li>
-      {% endif %}
-      {% if author.orcid %}
-        <li><a href="{{ author.orcid }}"><i class="ai ai-orcid-square ai-fw"></i> ORCID</a></li>
       {% endif %}
       {% if author.impactstory %}
         <li><a href="{{ author.impactstory }}"><i class="ai ai-impactstory ai-fw"></i> Impactstory</a></li>

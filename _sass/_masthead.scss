@@ -5,7 +5,8 @@
 .masthead {
   position: sticky;
   top: 0;
-  background-color: white;
+  height: 64px;
+  background-color: rgba(255, 255, 255, 0.98);
   border-bottom: 1px solid $border-color;
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
@@ -16,7 +17,8 @@
   &__inner-wrap {
     @include container;
     @include clearfix;
-    padding: .5em;
+    height: 64px;
+    padding: 0 1.25rem;
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
@@ -34,6 +36,7 @@
 }
 
 .masthead__menu {
+  height: 100%;
 
   ul {
     margin: 0;
@@ -41,13 +44,6 @@
     clear: both;
     list-style-type: none;
   }
-}
-
-.masthead__menu-home-item {
-  @include breakpoint($medium) {
-    display: block !important;
-  }
-  display: none !important;
 }
 
 .masthead__menu-item {
@@ -60,5 +56,4 @@
     font-weight: 700;
   }
 }
-
 

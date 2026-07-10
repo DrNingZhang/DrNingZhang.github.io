@@ -13,7 +13,8 @@ body {
   padding-bottom: 0em;
   color: $text-color;
   font-family: $global-font-family;
-  line-height: 1.5;
+  background: $background-color;
+  line-height: 1.7;
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
@@ -22,10 +23,11 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 1em 0 0.5em;
-  line-height: 1.2;
+  margin: 1.5em 0 0.75em;
+  line-height: 1.25;
   font-family: $header-font-family;
   font-weight: bold;
+  letter-spacing: 0;
 }
 
 h1 {
@@ -59,7 +61,12 @@ small, .small {
 }
 
 p {
-  margin-bottom: 0.5em;
+  margin-bottom: 0.75em;
+}
+
+:focus-visible {
+  outline: 2px solid $primary-color;
+  outline-offset: 3px;
 }
 
 u,

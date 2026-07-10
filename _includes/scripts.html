@@ -1,4 +1,7 @@
 <script src="assets/js/main.min.js"></script>
+{% if page.url == "/" %}
+  <script src="{{ '/assets/js/home-nav.js' | relative_url }}"></script>
+{% endif %}
 
 {% include analytics.html %}
 {% include fetch_google_scholar_stats.html %}

@@ -11,7 +11,7 @@
           transform: translate3d(0, 0 , 0);
 
   @include clearfix();
-  margin-bottom: 1em;
+  margin-bottom: 1.5rem;
 
   @include breakpoint($large) {
     @include span(2 of 12);
@@ -69,19 +69,20 @@
    Author profile and links
    ========================================================================== */
 .profile_box{
+  display: grid;
+  grid-template-columns: 88px minmax(0, 1fr) auto;
+  gap: 1rem;
+  align-items: center;
+
   @include breakpoint($large) {
     display: block;
   }
-  display: flex;
-  justify-content: flex-start;
-  align-content: flex-start;
-  align-items: center;
 }
 
 .author__avatar {
   display: table-cell;
   vertical-align: top;
-  width: 75px;
+  width: 88px;
   // set width only, for non-square avatars
   // height: 36px;
 
@@ -92,12 +93,12 @@
   }
 
   img {
-    max-width: 175px;
-    min-width: 75px;
+    max-width: 180px;
+    min-width: 72px;
     border-radius: 50%;
 
     @include breakpoint($large) {
-      padding: 5px;
+      padding: 4px;
       border: 1px solid $border-color;
     }
   }
@@ -106,7 +107,7 @@
 .author__content {
   display: table-cell;
   vertical-align: top;
-  padding-left: 10px;
+  padding-left: 0;
   min-width: 120px;
   // padding-right: 25px;
   line-height: 1;
@@ -123,8 +124,8 @@
   margin: 0;
 
   @include breakpoint($large) {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 0.85rem;
+    margin-bottom: 0.25rem;
   }
 }
 
@@ -134,6 +135,27 @@
   }
   font-family: $sans-serif;
   font-size: $type-size-4;
+  color: $darker-gray;
+  line-height: 1.25;
+}
+
+.author__role {
+  margin: 0.2rem 0 0;
+  color: $primary-color;
+  font-size: $type-size-6;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.author__research-focus {
+  margin: 0.25rem 0 0;
+  color: $gray;
+  font-size: $type-size-7;
+  line-height: 1.45;
+
+  @include breakpoint($large) {
+    max-width: 18rem;
+  }
 }
 
 .author__bio {
@@ -237,6 +259,18 @@
     white-space: nowrap;
   }
 
+  .author__urls-heading {
+    margin: 0.9rem 0 0.35rem;
+    color: $primary-color;
+    font-size: $type-size-7;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+
+  .author__urls-heading:first-child {
+    margin-top: 0.75rem;
+  }
+
   a {
     display: block;
     margin-bottom: 5px;
@@ -244,7 +278,7 @@
     padding-top: 2px;
     padding-bottom: 2px;
     color: inherit;
-    font-size: $type-size-5;
+    font-size: $type-size-6;
     text-decoration: none;
 
     &:hover {
@@ -267,7 +301,7 @@
   padding-right: 5px;
   padding-bottom: 2px;
   color: inherit;
-  font-size: $type-size-5;
+  font-size: $type-size-6;
   line-height: 1.4;
   text-decoration: none;
   cursor: pointer;
@@ -337,6 +371,25 @@
     }
   }
   @include breakpoint($large) {
+    display: none;
+  }
+}
+
+@media (max-width: 599px) {
+  .profile_box {
+    grid-template-columns: 72px minmax(0, 1fr) auto;
+    gap: 0.75rem;
+  }
+
+  .author__avatar {
+    width: 72px;
+  }
+
+  .sidebar .author__name {
+    font-size: 1.1rem;
+  }
+
+  .author__research-focus {
     display: none;
   }
 }
