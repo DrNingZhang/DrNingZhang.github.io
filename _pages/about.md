@@ -17,22 +17,17 @@ redirect_from:
 
 <section class="home-section home-section--about" id="about-me">
 
-<div class="home-intro">
-  <p class="home-intro__eyebrow">Ph.D. Candidate at Harbin Institute of Technology</p>
-  <h1 class="home-intro__title">Dynamics and Control for Extraterrestrial Robots</h1>
-  <p class="home-intro__summary">I develop dynamics and control methods for planetary exploration robots, with a focus on locomotion planning and stable operation in challenging extraterrestrial terrain.</p>
-  <div class="home-metrics" aria-label="Academic output">
-    <div class="home-metric"><strong>9</strong><span>Journal Articles</span></div>
-    <div class="home-metric"><strong>11</strong><span>Conference Papers</span></div>
-    <div class="home-metric"><strong>27</strong><span>Patents</span></div>
-  </div>
-</div>
-
-<h2 class="home-section__title"><i class="fas fa-user-astronaut" aria-hidden="true"></i><span>About Me</span></h2>
+<h1 class="home-section__title"><i class="fas fa-user-astronaut" aria-hidden="true"></i><span>About Me</span></h1>
 
 <p>I am a <strong>Ph.D. candidate</strong> in the <strong>School of Astronautics</strong> at <strong>Harbin Institute of Technology</strong>, majoring in <strong>Aerospace Science and Technology</strong> under the supervision of Professor Cui Hutao. As a member of the Flight Vehicle Dynamics Design and Simulation Team, I work on spacecraft mechanism design, structural mechanics, and optimization. Our technologies have supported major national missions, including Chang'e-5 lunar soil sampling, the space station robotic arm, high-resolution remote sensing satellites, and the Tianwen-1 Mars probe.</p>
 
 <p>My research focuses on <strong>robot dynamics and control</strong>, especially <strong>locomotion planning and control for extraterrestrial robots</strong>. I have mentored and supported master's and doctoral students whose work has resulted in SCI papers, conference papers, patents, scholarships, and competition awards. I have also undertaken projects for <strong>the Beijing Institute of Spacecraft System Engineering</strong> and <strong>the Beijing Institute of Control Engineering</strong>, and I serve as a reviewer for the Journal of Mechanisms and Robotics and the Journal of Mechanical Design.</p>
+
+<div class="home-metrics home-metrics--standalone" aria-label="Academic output">
+  <div class="home-metric"><strong>9</strong><span>Journal Articles</span></div>
+  <div class="home-metric"><strong>11</strong><span>Conference Papers</span></div>
+  <div class="home-metric"><strong>27</strong><span>Patents</span></div>
+</div>
 
 </section>
 
@@ -48,12 +43,12 @@ redirect_from:
 </div>
 
 <div class="journal-list">
-  <article class="journal-item journal-item--featured">
+  <article class="journal-item">
     <div class="journal-thumb"><img src="images/Journal%20paper/Journal%20paper1.png" alt="Neural Network Predictive Control"></div>
     <div>
       <h3 class="journal-title"><a href="https://doi.org/10.1115/1.4069048">Neural Network Predictive Control for Planetary Surface Exploration Robots Considering Dynamic Conformational Stability</a></h3>
       <div class="journal-authors"><strong>Ning Zhang</strong>, Maoguo Li, Hutao Cui, Wenlai Ma, Yang Zhao</div>
-      <div class="journal-venue">Journal of Mechanisms and Robotics <span class="journal-tag journal-tag--author">First Author</span><span class="journal-tag journal-tag--q1">JCR Q1</span></div>
+      <div class="journal-venue">Journal of Mechanisms and Robotics <span class="journal-tag journal-tag--q1">JCR Q1</span></div>
       <details class="journal-abstract">
         <summary class="journal-abstract-line"><span>Abstract</span></summary>
         <div class="journal-abstract-body">

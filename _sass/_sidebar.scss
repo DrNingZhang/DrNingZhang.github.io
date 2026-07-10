@@ -26,6 +26,7 @@
 
 
   @include breakpoint($x-large) {
+    @include span(2.5 of 12);
     padding-right: 0;
   }
 
@@ -101,6 +102,10 @@
       padding: 4px;
       border: 1px solid $border-color;
     }
+
+    @include breakpoint($x-large) {
+      max-width: 210px;
+    }
   }
 }
 
@@ -145,17 +150,6 @@
   font-size: $type-size-6;
   font-weight: 700;
   line-height: 1.4;
-}
-
-.author__research-focus {
-  margin: 0.25rem 0 0;
-  color: $gray;
-  font-size: $type-size-7;
-  line-height: 1.45;
-
-  @include breakpoint($large) {
-    max-width: 18rem;
-  }
 }
 
 .author__bio {
@@ -258,6 +252,13 @@
   li {
     overflow-wrap: anywhere;
     white-space: normal;
+  }
+
+  .author__meta-line {
+    @include breakpoint($x-large) {
+      overflow-wrap: normal;
+      white-space: nowrap;
+    }
   }
 
   .author__urls-heading {
@@ -395,10 +396,6 @@
 
   .sidebar .author__name {
     font-size: 1.1rem;
-  }
-
-  .author__research-focus {
-    display: none;
   }
 
   .author__urls_sm {
