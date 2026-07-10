@@ -303,19 +303,36 @@ redirect_from:
 
 <h2 class="home-section__title"><i class="fas fa-lightbulb" aria-hidden="true"></i><span>Inventive patent</span></h2>
 
-<div class="patent-summary" aria-label="Patent status summary">
-  <div class="patent-summary__item"><strong>10</strong><span>Authorized</span></div>
-  <div class="patent-summary__item"><strong>11</strong><span>Under Examination</span></div>
-  <div class="patent-summary__item"><strong>6</strong><span>Filed</span></div>
-</div>
+<nav class="patent-summary" aria-label="Patent status summary">
+  <a class="patent-summary__item patent-summary__item--granted" href="#patents-granted">
+    <i class="fas fa-check-circle" aria-hidden="true"></i>
+    <strong>10</strong>
+    <span class="patent-summary__text"><span class="patent-summary__label">已授权</span><span class="patent-summary__label-en">Authorized</span></span>
+  </a>
+  <a class="patent-summary__item patent-summary__item--review" href="#patents-review">
+    <i class="fas fa-search" aria-hidden="true"></i>
+    <strong>11</strong>
+    <span class="patent-summary__text"><span class="patent-summary__label">实质审查</span><span class="patent-summary__label-en">Under Examination</span></span>
+  </a>
+  <a class="patent-summary__item patent-summary__item--filed" href="#patents-filed">
+    <i class="fas fa-file-alt" aria-hidden="true"></i>
+    <strong>6</strong>
+    <span class="patent-summary__text"><span class="patent-summary__label">已申请</span><span class="patent-summary__label-en">Filed</span></span>
+  </a>
+</nav>
 
-
-<div class="patent-list">
+<div class="patent-register">
+  <section class="patent-group patent-group--granted" id="patents-granted" aria-labelledby="patents-granted-title">
+    <div class="patent-group__header">
+      <h3 id="patents-granted-title"><i class="fas fa-check-circle" aria-hidden="true"></i><span>已授权</span><small>Authorized</small></h3>
+      <span class="patent-group__count">10 patents</span>
+    </div>
+    <div class="patent-group__grid">
   <article class="patent-item">
     <div class="patent-no">01</div>
     <div>
-      <div class="patent-meta"><span class="patent-rank">4th</span><span class="patent-status patent-status--granted">已授权</span></div>
-      <div class="patent-title">一种基于飞行记录仪的太阳能发电系统</div>
+      <div class="patent-meta"><span class="patent-rank">4th</span></div>
+      <h4 class="patent-title">一种基于飞行记录仪的太阳能发电系统</h4>
       <div class="patent-authors">刘岩松, 龙岩, 李景奎, 等</div>
     </div>
   </article>
@@ -323,44 +340,17 @@ redirect_from:
   <article class="patent-item">
     <div class="patent-no">02</div>
     <div>
-      <div class="patent-meta"><span class="patent-rank">3rd</span><span class="patent-status patent-status--granted">已授权</span></div>
-      <div class="patent-title">太阳翼二次展开重力卸载试验装置</div>
+      <div class="patent-meta"><span class="patent-rank">3rd</span></div>
+      <h4 class="patent-title">太阳翼二次展开重力卸载试验装置</h4>
       <div class="patent-authors">沈迎咏, 高晶波, <strong>张宁</strong>, 等</div>
-    </div>
-  </article>
-
-  <article class="patent-item">
-    <div class="patent-no">03</div>
-    <div>
-      <div class="patent-meta"><span class="patent-rank">3rd</span><span class="patent-status patent-status--review">实质审查</span></div>
-      <div class="patent-title">火星表面三维地形重构方法</div>
-      <div class="patent-authors">马文来, 孟繁睿, <strong>张宁</strong>, 等</div>
-    </div>
-  </article>
-
-  <article class="patent-item">
-    <div class="patent-no">04</div>
-    <div>
-      <div class="patent-meta"><span class="patent-rank">3rd</span><span class="patent-status patent-status--review">实质审查</span></div>
-      <div class="patent-title">火星表面小石块的目标检测方法</div>
-      <div class="patent-authors">赵阳, 杨旭辉, <strong>张宁</strong>, 等</div>
-    </div>
-  </article>
-
-  <article class="patent-item">
-    <div class="patent-no">05</div>
-    <div>
-      <div class="patent-meta"><span class="patent-rank">1st</span><span class="patent-status patent-status--review">实质审查</span></div>
-      <div class="patent-title">多功能一体化静刚度测试系统</div>
-      <div class="patent-authors"><strong>张宁</strong>, 胡操, 马文来, 等</div>
     </div>
   </article>
 
   <article class="patent-item">
     <div class="patent-no">06</div>
     <div>
-      <div class="patent-meta"><span class="patent-rank">2nd</span><span class="patent-status patent-status--granted">已授权</span></div>
-      <div class="patent-title">基于宿主卫星与寄宿载荷分离、锁定的机械接口系统及方法</div>
+      <div class="patent-meta"><span class="patent-rank">2nd</span></div>
+      <h4 class="patent-title">基于宿主卫星与寄宿载荷分离、锁定的机械接口系统及方法</h4>
       <div class="patent-authors">彭思淇, <strong>张宁</strong>, 王震南, 等</div>
     </div>
   </article>
@@ -368,8 +358,8 @@ redirect_from:
   <article class="patent-item">
     <div class="patent-no">07</div>
     <div>
-      <div class="patent-meta"><span class="patent-rank">3rd</span><span class="patent-status patent-status--granted">已授权</span></div>
-      <div class="patent-title">监测宿主卫星与寄宿载荷分离、锁定姿态的试验装置</div>
+      <div class="patent-meta"><span class="patent-rank">3rd</span></div>
+      <h4 class="patent-title">监测宿主卫星与寄宿载荷分离、锁定姿态的试验装置</h4>
       <div class="patent-authors">孟繁睿, 杨旭辉, <strong>张宁</strong>, 等</div>
     </div>
   </article>
@@ -377,8 +367,8 @@ redirect_from:
   <article class="patent-item">
     <div class="patent-no">08</div>
     <div>
-      <div class="patent-meta"><span class="patent-rank">7th</span><span class="patent-status patent-status--granted">已授权</span></div>
-      <div class="patent-title">基于阿基米德螺旋线原理的可变刚度柔顺抓取装置</div>
+      <div class="patent-meta"><span class="patent-rank">7th</span></div>
+      <h4 class="patent-title">基于阿基米德螺旋线原理的可变刚度柔顺抓取装置</h4>
       <div class="patent-authors">李茂国, 魏承, 李诗宇, 等</div>
     </div>
   </article>
@@ -386,8 +376,8 @@ redirect_from:
   <article class="patent-item">
     <div class="patent-no">09</div>
     <div>
-      <div class="patent-meta"><span class="patent-rank">7th</span><span class="patent-status patent-status--granted">已授权</span></div>
-      <div class="patent-title">四足轮腿复合式机器人腿部折展伸缩变形机构</div>
+      <div class="patent-meta"><span class="patent-rank">7th</span></div>
+      <h4 class="patent-title">四足轮腿复合式机器人腿部折展伸缩变形机构</h4>
       <div class="patent-authors">揭诗怡, 魏承, 周峻宇, 等</div>
     </div>
   </article>
@@ -395,8 +385,8 @@ redirect_from:
   <article class="patent-item">
     <div class="patent-no">10</div>
     <div>
-      <div class="patent-meta"><span class="patent-rank">3rd</span><span class="patent-status patent-status--granted">已授权</span></div>
-      <div class="patent-title">防止百米级环柱天线振动的伸缩机构</div>
+      <div class="patent-meta"><span class="patent-rank">3rd</span></div>
+      <h4 class="patent-title">防止百米级环柱天线振动的伸缩机构</h4>
       <div class="patent-authors">李诗宇, 李茂国, <strong>张宁</strong>, 等</div>
     </div>
   </article>
@@ -404,8 +394,8 @@ redirect_from:
   <article class="patent-item">
     <div class="patent-no">11</div>
     <div>
-      <div class="patent-meta"><span class="patent-rank">2nd</span><span class="patent-status patent-status--granted">已授权</span></div>
-      <div class="patent-title">一种高精度四体动力学模型下的航天器轨道设计方法</div>
+      <div class="patent-meta"><span class="patent-rank">2nd</span></div>
+      <h4 class="patent-title">一种高精度四体动力学模型下的航天器轨道设计方法</h4>
       <div class="patent-authors">刘文豪, <strong>张宁</strong>, 李辰辉, 等</div>
     </div>
   </article>
@@ -413,140 +403,187 @@ redirect_from:
   <article class="patent-item">
     <div class="patent-no">12</div>
     <div>
-      <div class="patent-meta"><span class="patent-rank">5th</span><span class="patent-status patent-status--granted">已授权</span></div>
-      <div class="patent-title">一种用于月球车机械臂末端的模块化自动快拆接口</div>
+      <div class="patent-meta"><span class="patent-rank">5th</span></div>
+      <h4 class="patent-title">一种用于月球车机械臂末端的模块化自动快拆接口</h4>
       <div class="patent-authors">刘博屹, 魏承, 李茂国, 等</div>
-    </div>
-  </article>
-
-  <article class="patent-item">
-    <div class="patent-no">13</div>
-    <div>
-      <div class="patent-meta"><span class="patent-rank">5th</span><span class="patent-status patent-status--review">实质审查</span></div>
-      <div class="patent-title">基于转盘式升降台的双舱门月面智能工具箱</div>
-      <div class="patent-authors">揭诗怡, 魏承, 李茂国, 等</div>
     </div>
   </article>
 
   <article class="patent-item">
     <div class="patent-no">14</div>
     <div>
-      <div class="patent-meta"><span class="patent-rank">4th</span><span class="patent-status patent-status--granted">已授权</span></div>
-      <div class="patent-title">基于机械臂快拆接口的小型通用智能化月面基建工程系统设计</div>
+      <div class="patent-meta"><span class="patent-rank">4th</span></div>
+      <h4 class="patent-title">基于机械臂快拆接口的小型通用智能化月面基建工程系统设计</h4>
       <div class="patent-authors">李茂国, 魏承, 孙晟昕, 等</div>
     </div>
   </article>
 
-  <article class="patent-item">
-    <div class="patent-no">15</div>
-    <div>
-      <div class="patent-meta"><span class="patent-rank">3rd</span><span class="patent-status patent-status--review">实质审查</span></div>
-      <div class="patent-title">多自由度电磁弹射分离与吸附一体化空间接口装置</div>
-      <div class="patent-authors">白文博, 李茂国, <strong>张宁</strong>, 等</div>
     </div>
-  </article>
+  </section>
 
-  <article class="patent-item">
-    <div class="patent-no">16</div>
-    <div>
-      <div class="patent-meta"><span class="patent-rank">4th</span><span class="patent-status patent-status--review">实质审查</span></div>
-      <div class="patent-title">大惯量异形旋转载荷卫星动静不平衡多目标优化配平方法</div>
-      <div class="patent-authors">魏承, 马文来, 曹喜滨, 等</div>
+  <section class="patent-group patent-group--review" id="patents-review" aria-labelledby="patents-review-title">
+    <div class="patent-group__header">
+      <h3 id="patents-review-title"><i class="fas fa-search" aria-hidden="true"></i><span>实质审查</span><small>Under Examination</small></h3>
+      <span class="patent-group__count">11 patents</span>
     </div>
-  </article>
+    <div class="patent-group__grid">
+      <article class="patent-item">
+        <div class="patent-no">03</div>
+        <div>
+          <div class="patent-meta"><span class="patent-rank">3rd</span></div>
+          <h4 class="patent-title">火星表面三维地形重构方法</h4>
+          <div class="patent-authors">马文来, 孟繁睿, <strong>张宁</strong>, 等</div>
+        </div>
+      </article>
 
-  <article class="patent-item">
-    <div class="patent-no">17</div>
-    <div>
-      <div class="patent-meta"><span class="patent-rank">1st</span><span class="patent-status patent-status--review">实质审查</span></div>
-      <div class="patent-title">在轨更换装置</div>
-      <div class="patent-authors"><strong>张宁</strong>, 王培基, 杨旭辉, 等</div>
-    </div>
-  </article>
+      <article class="patent-item">
+        <div class="patent-no">04</div>
+        <div>
+          <div class="patent-meta"><span class="patent-rank">3rd</span></div>
+          <h4 class="patent-title">火星表面小石块的目标检测方法</h4>
+          <div class="patent-authors">赵阳, 杨旭辉, <strong>张宁</strong>, 等</div>
+        </div>
+      </article>
 
-  <article class="patent-item">
-    <div class="patent-no">18</div>
-    <div>
-      <div class="patent-meta"><span class="patent-rank">4th</span><span class="patent-status patent-status--review">实质审查</span></div>
-      <div class="patent-title">面向地外天体安全采样的蒸馏集成学习土壤参数反演方法</div>
-      <div class="patent-authors">孙晟昕, 李茂国, 刘慧金, 等</div>
-    </div>
-  </article>
+      <article class="patent-item">
+        <div class="patent-no">05</div>
+        <div>
+          <div class="patent-meta"><span class="patent-rank">1st</span></div>
+          <h4 class="patent-title">多功能一体化静刚度测试系统</h4>
+          <div class="patent-authors"><strong>张宁</strong>, 胡操, 马文来, 等</div>
+        </div>
+      </article>
 
-  <article class="patent-item">
-    <div class="patent-no">19</div>
-    <div>
-      <div class="patent-meta"><span class="patent-rank">5th</span><span class="patent-status patent-status--review">实质审查</span></div>
-      <div class="patent-title">基于近端策略优化算法的固定基座机械臂点对点轨迹优化方法</div>
-      <div class="patent-authors">孙晟昕, 钟雨洁, 张剑桥, 等</div>
-    </div>
-  </article>
+      <article class="patent-item">
+        <div class="patent-no">13</div>
+        <div>
+          <div class="patent-meta"><span class="patent-rank">5th</span></div>
+          <h4 class="patent-title">基于转盘式升降台的双舱门月面智能工具箱</h4>
+          <div class="patent-authors">揭诗怡, 魏承, 李茂国, 等</div>
+        </div>
+      </article>
 
-  <article class="patent-item">
-    <div class="patent-no">20</div>
-    <div>
-      <div class="patent-meta"><span class="patent-rank">6th</span><span class="patent-status patent-status--review">实质审查</span></div>
-      <div class="patent-title">基于组相对策略优化算法的空间机械臂轨迹优化方法</div>
-      <div class="patent-authors">孙晟昕, 钟雨洁, 李建融, 等</div>
-    </div>
-  </article>
+      <article class="patent-item">
+        <div class="patent-no">15</div>
+        <div>
+          <div class="patent-meta"><span class="patent-rank">3rd</span></div>
+          <h4 class="patent-title">多自由度电磁弹射分离与吸附一体化空间接口装置</h4>
+          <div class="patent-authors">白文博, 李茂国, <strong>张宁</strong>, 等</div>
+        </div>
+      </article>
 
-  <article class="patent-item">
-    <div class="patent-no">21</div>
-    <div>
-      <div class="patent-meta"><span class="patent-rank">12th</span><span class="patent-status patent-status--review">实质审查</span></div>
-      <div class="patent-title">小提琴演奏机器人自适应运弓控制方法</div>
-      <div class="patent-authors">李建融, 魏承, 乔淑楠, 等</div>
+      <article class="patent-item">
+        <div class="patent-no">16</div>
+        <div>
+          <div class="patent-meta"><span class="patent-rank">4th</span></div>
+          <h4 class="patent-title">大惯量异形旋转载荷卫星动静不平衡多目标优化配平方法</h4>
+          <div class="patent-authors">魏承, 马文来, 曹喜滨, 等</div>
+        </div>
+      </article>
+
+      <article class="patent-item">
+        <div class="patent-no">17</div>
+        <div>
+          <div class="patent-meta"><span class="patent-rank">1st</span></div>
+          <h4 class="patent-title">在轨更换装置</h4>
+          <div class="patent-authors"><strong>张宁</strong>, 王培基, 杨旭辉, 等</div>
+        </div>
+      </article>
+
+      <article class="patent-item">
+        <div class="patent-no">18</div>
+        <div>
+          <div class="patent-meta"><span class="patent-rank">4th</span></div>
+          <h4 class="patent-title">面向地外天体安全采样的蒸馏集成学习土壤参数反演方法</h4>
+          <div class="patent-authors">孙晟昕, 李茂国, 刘慧金, 等</div>
+        </div>
+      </article>
+
+      <article class="patent-item">
+        <div class="patent-no">19</div>
+        <div>
+          <div class="patent-meta"><span class="patent-rank">5th</span></div>
+          <h4 class="patent-title">基于近端策略优化算法的固定基座机械臂点对点轨迹优化方法</h4>
+          <div class="patent-authors">孙晟昕, 钟雨洁, 张剑桥, 等</div>
+        </div>
+      </article>
+
+      <article class="patent-item">
+        <div class="patent-no">20</div>
+        <div>
+          <div class="patent-meta"><span class="patent-rank">6th</span></div>
+          <h4 class="patent-title">基于组相对策略优化算法的空间机械臂轨迹优化方法</h4>
+          <div class="patent-authors">孙晟昕, 钟雨洁, 李建融, 等</div>
+        </div>
+      </article>
+
+      <article class="patent-item">
+        <div class="patent-no">21</div>
+        <div>
+          <div class="patent-meta"><span class="patent-rank">12th</span></div>
+          <h4 class="patent-title">小提琴演奏机器人自适应运弓控制方法</h4>
+          <div class="patent-authors">李建融, 魏承, 乔淑楠, 等</div>
+        </div>
+      </article>
     </div>
-  </article>
+  </section>
+
+  <section class="patent-group patent-group--filed" id="patents-filed" aria-labelledby="patents-filed-title">
+    <div class="patent-group__header">
+      <h3 id="patents-filed-title"><i class="fas fa-file-alt" aria-hidden="true"></i><span>已申请</span><small>Filed</small></h3>
+      <span class="patent-group__count">6 patents</span>
+    </div>
+    <div class="patent-group__grid">
 
   <article class="patent-item">
     <div class="patent-no">22</div>
     <div>
-      <div class="patent-meta"><span class="patent-rank">5th</span><span class="patent-status patent-status--filed">已申请</span></div>
-      <div class="patent-title">一种基于参数重组与可识别性约束的轮-土模型小样本分阶段贝叶斯反演方法</div>
+      <div class="patent-meta"><span class="patent-rank">5th</span></div>
+      <h4 class="patent-title">一种基于参数重组与可识别性约束的轮-土模型小样本分阶段贝叶斯反演方法</h4>
     </div>
   </article>
 
   <article class="patent-item">
     <div class="patent-no">23</div>
     <div>
-      <div class="patent-meta"><span class="patent-rank">2nd</span><span class="patent-status patent-status--filed">已申请</span></div>
-      <div class="patent-title">面向空间太阳能卫星的能量最优姿态控制方法</div>
+      <div class="patent-meta"><span class="patent-rank">2nd</span></div>
+      <h4 class="patent-title">面向空间太阳能卫星的能量最优姿态控制方法</h4>
     </div>
   </article>
 
   <article class="patent-item">
     <div class="patent-no">24</div>
     <div>
-      <div class="patent-meta"><span class="patent-rank">5th</span><span class="patent-status patent-status--filed">已申请</span></div>
-      <div class="patent-title">一种基于子模信息增益模型视角的手眼标定位姿阵列生成方法</div>
+      <div class="patent-meta"><span class="patent-rank">5th</span></div>
+      <h4 class="patent-title">一种基于子模信息增益模型视角的手眼标定位姿阵列生成方法</h4>
     </div>
   </article>
 
   <article class="patent-item">
     <div class="patent-no">25</div>
     <div>
-      <div class="patent-meta"><span class="patent-rank">5th</span><span class="patent-status patent-status--filed">已申请</span></div>
-      <div class="patent-title">含间隙铰链柔性多体系统的热—机耦合多尺度动力学求解方法</div>
+      <div class="patent-meta"><span class="patent-rank">5th</span></div>
+      <h4 class="patent-title">含间隙铰链柔性多体系统的热—机耦合多尺度动力学求解方法</h4>
     </div>
   </article>
 
   <article class="patent-item">
     <div class="patent-no">26</div>
     <div>
-      <div class="patent-meta"><span class="patent-rank">5th</span><span class="patent-status patent-status--filed">已申请</span></div>
-      <div class="patent-title">含间隙铰链变构型航天器天线的热-力耦合动力学建模方法</div>
+      <div class="patent-meta"><span class="patent-rank">5th</span></div>
+      <h4 class="patent-title">含间隙铰链变构型航天器天线的热-力耦合动力学建模方法</h4>
     </div>
   </article>
 
   <article class="patent-item">
     <div class="patent-no">27</div>
     <div>
-      <div class="patent-meta"><span class="patent-rank">13th</span><span class="patent-status patent-status--filed">已申请</span></div>
-      <div class="patent-title">一种建筑被动遮阳快速能耗舒适度联合评估方法</div>
+      <div class="patent-meta"><span class="patent-rank">13th</span></div>
+      <h4 class="patent-title">一种建筑被动遮阳快速能耗舒适度联合评估方法</h4>
     </div>
   </article>
+    </div>
+  </section>
 </div>
 
 
